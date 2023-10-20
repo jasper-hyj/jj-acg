@@ -24,16 +24,16 @@ export default function Nav({ dict, locale }: { dict: any; locale: string }) {
 				<nav className="nav nav-masthead justify-content-center float-md-end">
 					<a
 						className="nav-link fw-bold py-1 text-dark"
-						href={"/" + locale + "/programming"}
+						href={"/" + locale + "/blog"}
 					>
-						{dict.nav.programming}
+						{dict.nav.blog}
 					</a>
-					<a
+					{/* <a
 						className="nav-link fw-bold py-1 text-dark"
 						href={"/" + locale + "/anime"}
 					>
 						{dict.nav.anime}
-					</a>
+					</a> */}
 					<a
 						className="nav-link fw-bold py-1 text-dark"
 						href={dict.nav.c_lang_link + pathName}
