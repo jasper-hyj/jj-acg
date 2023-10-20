@@ -4,7 +4,7 @@ import type { Metadata, ResolvingMetadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
 	return {
-		title: "JJ Ghost",
+		title: "JJ ACG",
 	};
 }
 
