@@ -21,7 +21,7 @@ export default async function AnimeCard({ locale }: { locale: string }) {
 								style={{ width: "100%", height: "auto" }}
 								className="bd-placeholder-img card-img-top"
 								role="img"
-								src={animeCard.imagePath}
+								src={`${animeCard.dirPath}main.jpg`}
 								alt=""
 							/>
 

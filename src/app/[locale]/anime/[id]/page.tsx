@@ -19,7 +19,7 @@ export default async function Page({
 		<>
 			<div>
 				<img
-					src={animeBlog.imagePath}
+					src={`${animeBlog.dirPath}main.jpg`}
 					className="img-fluid"
 					alt="..."
 					width={"50%"}
