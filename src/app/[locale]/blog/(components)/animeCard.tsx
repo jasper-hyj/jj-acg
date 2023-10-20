@@ -1,6 +1,6 @@
 "use server";
 
-import { getAnimeCard } from "../(repository)/animeRepository";
+import { getAnimeCard } from "../../(repository)/animeRepository";
 
 export default async function AnimeCard({ locale }: { locale: string }) {
 	const animeCards = await getAnimeCard(locale);
@@ -13,9 +13,7 @@ export default async function AnimeCard({ locale }: { locale: string }) {
 			{animeCards.map((animeCard, index) => (
 				<div className="col-sm-6 col-lg-4 mb-4" key={animeCard.id}>
 					<a
-						href={
-							"/" + locale + "/anime/blog/" + animeCard.id + "/"
-						}
+						href={"/" + locale + "/blog/" + animeCard.id + "/"}
 						className="link-underline link-underline-opacity-0"
 					>
 						<div className="card">
