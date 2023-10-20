@@ -1,7 +1,7 @@
 "use server";
 
 import { Metadata } from "next";
-import { getAnimeBlog } from "../(repository)/animeRepository";
+import { getAnimeBlog, getAnimeContent } from "../(repository)/animeRepository";
 
 export async function generateMetadata(): Promise<Metadata> {
 	return {
@@ -15,17 +15,20 @@ export default async function Page({
 	params: { locale: string; id: string };
 }) {
 	const animeBlog = await getAnimeBlog(params.locale, params.id);
+	const content = await getAnimeContent(params.locale, animeBlog.dirPath);
 	return (
 		<>
-			<div>
+			<div className="container">
 				<img
 					src={`${animeBlog.dirPath}main.jpg`}
-					className="img-fluid"
+					className="img-fluid rounded my-3"
 					alt="..."
-					width={"50%"}
+					width={"75%"}
 				/>
 				<h1>{animeBlog.animeName}</h1>
+				<h5>簡介</h5>
 				<p>{animeBlog.animeDescr}</p>
+				<div dangerouslySetInnerHTML={{ __html: content }}></div>
 			</div>
 			<p>{params.id}</p>
 		</>
