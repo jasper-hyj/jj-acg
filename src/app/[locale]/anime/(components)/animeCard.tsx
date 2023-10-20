@@ -16,7 +16,7 @@ export default async function AnimeCard({ locale }: { locale: string }) {
 						href={"/" + locale + "/anime/" + animeCard.id + "/"}
 						className="link-underline link-underline-opacity-0"
 					>
-						<div className="card">
+						<div className="card shadow">
 							<img
 								style={{ width: "100%", height: "auto" }}
 								className="bd-placeholder-img card-img-top"

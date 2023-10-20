@@ -23,25 +23,25 @@ export default async function Page({ params }: { params: { locale: string } }) {
 			<p className="lead">
 				<a
 					href={`/${params.locale}/anime`}
-					className="btn mx-2 btn-lg btn-light fw-bold border-white bg-white"
+					className="btn m-2 btn-lg btn-light fw-bold border-white bg-white"
 				>
 					{dict.anime}
 				</a>
 				<a
 					href={`/${params.locale}/comic`}
-					className="btn mx-2 btn-lg btn-light fw-bold border-white bg-white"
+					className="btn m-2 btn-lg btn-light fw-bold border-white bg-white"
 				>
 					{dict.comic}
 				</a>
 				<a
 					href={`/${params.locale}/game`}
-					className="btn mx-2 btn-lg btn-light fw-bold border-white bg-white"
+					className="btn m-2 btn-lg btn-light fw-bold border-white bg-white"
 				>
 					{dict.game}
 				</a>
 				<a
 					href={`/${params.locale}/novel`}
-					className="btn mx-2 btn-lg btn-light fw-bold border-white bg-white"
+					className="btn m-2 btn-lg btn-light fw-bold border-white bg-white"
 				>
 					{dict.novel}
 				</a>
