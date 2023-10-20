@@ -1,6 +1,6 @@
 [
 	{
-		"id": "1",
+		"id": 1,
 		"locale": "en",
 		"animeName": "16bit Sensation",
 		"animeDescr": "",
@@ -26,7 +26,7 @@
 	{
 		"id": 2,
 		"locale": "zh",
-		"animeName": "Stardust Telepath",
+		"animeName": "星靈感應",
 		"animeDescr": "不擅長與人交流的女高中生小之星海果與自稱外星人的明內幽邂逅，約定以宇宙為目標。然後在遇見副班長寶木遙乃和總是曠課的雷門瞬等人之後開始製作火箭。女高中生們製作火箭以宇宙作為目標的「青春火箭」故事。",
 		"imagePath": "/static/anime/stardust-telepath/230209-hoshi-02.jpg",
 		"updateAt": "2023-10-20 04:29:19"
@@ -62,5 +62,37 @@
 		"animeDescr": "與母親及妹妹一起生活的高二生──時野谷瞬。因為一場意外事故導致父親離世、妹妹受傷以後，他放棄了原本沉迷的遊戲，進入電競咖啡廳「FOX ONE」工作。與從小一起長大的遊戲夥伴往來的同時，忙於打工及課業的瞬，突然發現「FOX ONE」背負了巨額債務。為了還債，瞬與夥伴立志要在「XAXXERION錦標賽」贏得冠軍，獲得獎金。瞬懷抱著內疚的心情，再次投身於線上遊戲世界，在他面前，出現了曾經與他一同進行遊戲的「爆裂君」。未曾體驗的邂逅與經歷，以及激戰……瞬即使不時感到苦惱，仍然與夥伴們一起攜手向前進。他們的世界透過遊戲開始動了起來。這是少年與家人，以及夥伴們的故事……。",
 		"imagePath": "/static/anime/our-rainy-protocol/image.jpg",
 		"updateAt": "2023-10-20 06:30:50"
+	},
+	{
+		"id": 5,
+		"locale": "en",
+		"animeName": "Shy",
+		"animeDescr": "",
+		"imagePath": "/static/anime/shy/main.jpeg",
+		"updateAt": "2023-10-20 12:30:50"
+	},
+	{
+		"id": 5,
+		"locale": "zh",
+		"animeName": "SHY",
+		"animeDescr": "21世紀中，戰爭在地球上消失無蹤——由於各個國家突然出現擁有超越人類力量，祈求世界和平的「英雄」，世界產生了巨大的變化。為了維繫嶄新的和平局勢，各個國家的英雄們在全世界大展身手，其中負責維持日本和平的是——超怕在人前露臉的靦腆少女英雄「SHY」。雖然她不善於面對眾人、社會的眼光，但還是在苦惱之中努力解救需要幫助的人！",
+		"imagePath": "/static/anime/shy/main.jpeg",
+		"updateAt": "2023-10-20 12:30:50"
+	},
+	{
+		"id": 6,
+		"locale": "en",
+		"animeName": "A Returner's Magic Should Be Special",
+		"animeDescr": "",
+		"imagePath": "/static/anime/a-returners-magic-should-be-special/main.jpg",
+		"updateAt": "2023-10-20 14:41:00"
+	},
+	{
+		"id": 6,
+		"locale": "zh",
+		"animeName": "重生者的魔法一定要特別",
+		"animeDescr": "異次元空間『影之世界』持續侵蝕世界。人類不得不面對影世界帶來的最可怕的災難『影子迷宮』。「戴基爾·阿曼德」與同伴一同對抗最後一個『影子迷宮』的最終頭目破滅龍（波羅米歐·納波利坦），卻仍迎來世界的滅亡結局。就在戴基爾萬念俱灰的瞬間眼前出現了熟悉的光景……竟是13年前的世界。戴基爾竟回到了他的母校，全帝國第一的魔法學園「赫布里溫學院」的開學典禮上。於是他為了拯救世界，再次集結伙伴們，起身反抗終將到來的滅亡命運！",
+		"imagePath": "/static/anime/a-returners-magic-should-be-special/main.jpg",
+		"updateAt": "2023-10-20 14:41:00"
 	}
 ]

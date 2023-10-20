@@ -24,9 +24,15 @@ export default function Nav({ dict, locale }: { dict: any; locale: string }) {
 				<nav className="nav nav-masthead justify-content-center float-md-end">
 					<a
 						className="nav-link fw-bold py-1 text-dark"
-						href={"/" + locale + "/blog"}
+						href={"/" + locale + "/anime"}
 					>
-						{dict.nav.blog}
+						{dict.anime}
+					</a>
+					<a
+						className="nav-link fw-bold py-1 text-dark"
+						href={"/" + locale + "/comic"}
+					>
+						{dict.comic}
 					</a>
 					{/* <a
 						className="nav-link fw-bold py-1 text-dark"

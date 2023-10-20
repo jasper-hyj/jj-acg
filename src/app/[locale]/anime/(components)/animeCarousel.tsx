@@ -33,18 +33,20 @@ export default async function AnimeCarousel({ locale }: { locale: string }) {
 						}
 						data-bs-interval="5000"
 					>
-						<img
-							width={0}
-							height={0}
-							sizes="100vw"
-							className="d-block object-fit-cover w-100 h-100"
-							src={animePost.imagePath!}
-							alt=""
-						/>
-						<div className="carousel-caption d-none d-md-block">
-							<h4>{animePost.animeName}</h4>
-							<p>{animePost.animeDescr}</p>
-						</div>
+						<a href={"/" + locale + "/anime/" + animePost.id + "/"}>
+							<img
+								width={0}
+								height={0}
+								sizes="100vw"
+								className="d-block object-fit-cover w-100 h-100"
+								src={animePost.imagePath!}
+								alt=""
+							/>
+							<div className="carousel-caption d-none d-md-block">
+								<h4>{animePost.animeName}</h4>
+								<p>{animePost.animeDescr}</p>
+							</div>
+						</a>
 					</div>
 				))}
 			</div>

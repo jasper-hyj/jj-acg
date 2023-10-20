@@ -1,7 +1,7 @@
 "use server";
 "use strict";
 import { PrismaClient } from "@prisma/client";
-import animeList from "./anime.json"
+import animeList from "../../../../../db/anime.json"
 import sqlite3 from "sqlite3";
 import { open, Database } from "sqlite";
 import { JsonArray } from "@prisma/client/runtime/library";
