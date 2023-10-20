@@ -11,8 +11,8 @@ export default async function RootLayout({
 }) {
 	const dict = await getDictionary(params.locale);
 	return (
-		<div className="h-100 text-center">
-			<div className="d-flex w-100 h-100  mx-auto flex-column">
+		<div className="h-100 text-center bg-image">
+			<div className="d-flex w-100 h-100  mx-auto flex-column bg-image-blur">
 				<Nav dict={dict} locale={params.locale} />
 				{children}
 				<div className="mt-auto container">

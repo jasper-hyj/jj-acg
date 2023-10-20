@@ -3,6 +3,10 @@
 	"comic": "Comic",
 	"game": "Game",
 	"novel": "Novel",
+	"home": {
+		"title": "JJ World of ACG & Novel",
+		"content": "Welcome to My World!"
+	},
 	"nav": {
 		"title": "JJ ACQ",
 		"blog": "Anime Blog",

@@ -3,7 +3,10 @@
 	"comic": "漫畫",
 	"game": "遊戲",
 	"novel": "小說",
-
+	"home": {
+		"title": "JJ ACG 世界",
+		"content": "歡迎來到我的世界"
+	},
 	"nav": {
 		"title": "JJ ACG",
 		"blog": "動畫日誌",
