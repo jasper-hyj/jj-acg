@@ -67,7 +67,7 @@ export async function getAnimeCard(locale: string) {
 }
 
 export async function getAnimeBlog(locale: string, id: string) {
-	const animePost = animeList.filter((anime) => anime.locale == locale && anime.id == id)[0];
+	const animePost = animeList.filter((anime) => anime.locale == locale && anime.id.toString() == id)[0];
 	return animePost;
 }
 
