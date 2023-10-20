@@ -1,7 +1,7 @@
 "use server";
 
 import { Metadata } from "next";
-import { getAnimeBlog } from "../../(repository)/animeRepository";
+import { getAnimeBlog } from "../(repository)/animeRepository";
 
 export async function generateMetadata(): Promise<Metadata> {
 	return {

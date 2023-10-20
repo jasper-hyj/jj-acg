@@ -1,6 +1,6 @@
 "use server";
 
-import { getAnimeCard } from "../../(repository)/animeRepository";
+import { getAnimeCard } from "../(repository)/animeRepository";
 
 export default async function AnimeCard({ locale }: { locale: string }) {
 	const animeCards = await getAnimeCard(locale);

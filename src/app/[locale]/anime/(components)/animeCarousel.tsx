@@ -1,5 +1,5 @@
 "use server";
-import { getAnimeCarousel } from "../../(repository)/animeRepository";
+import { getAnimeCarousel } from "../(repository)/animeRepository";
 
 export default async function AnimeCarousel({ locale }: { locale: string }) {
 	const animePosts = await getAnimeCarousel(locale);

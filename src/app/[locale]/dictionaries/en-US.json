@@ -1,7 +1,11 @@
 {
+	"anime": "Anime",
+	"comic": "Comic",
+	"game": "Game",
+	"novel": "Novel",
 	"nav": {
-		"title": "JJ Anime",
-		"blog": "動畫日誌",
+		"title": "JJ ACQ",
+		"blog": "Anime Blog",
 		"c_lang": "中文",
 		"c_lang_link": "/zh/"
 	},
