@@ -5,7 +5,9 @@ import animeList from "../../../../../db/anime.json"
 import sqlite3 from "sqlite3";
 import { open, Database } from "sqlite";
 import { JsonArray } from "@prisma/client/runtime/library";
-import { promises as fs } from 'fs';
+import { copyFileSync, promises as fs } from 'fs';
+import { readFileSync } from 'fs';
+import path from 'path';
 
 let db: any = null;
 export interface AnimePost {
@@ -75,7 +77,9 @@ export async function getAnimeBlog(locale: string, id: string) {
 export async function getAnimeContent(locale: string, dirPath: string) {
 	var content: any;
 	try {
-		content = await fs.readFile(process.cwd() + `/public${dirPath}content-${locale}.html`, 'utf8');
+
+		const file = path.join(process.cwd(), `/public${dirPath}content-${locale}.html`);
+		content = await readFileSync(file, 'utf8');
 	} catch (err) {
 		content = "<p>No Content Available</p>"
 	} finally {
