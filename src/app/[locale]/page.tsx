@@ -15,11 +15,11 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function Page({ params }: { params: { locale: string } }) {
 	const dict = await getDictionary(params.locale);
 	return (
-		<main className="px-3">
+		<main className="p-5 mx-auto bg-blur">
 			<Background />
 			<style>{"body{ height: 100% }"}</style>
-			<h1>{dict.home.title}</h1>
-			<p className="lead">{dict.home.content}</p>
+			<h1 className="text-light">{dict.home.title}</h1>
+			<p className="lead text-light">{dict.home.content}</p>
 			<p className="lead">
 				<a
 					href={`/${params.locale}/anime`}
