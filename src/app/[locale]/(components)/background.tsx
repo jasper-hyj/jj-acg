@@ -1,14 +1,18 @@
-"use client";
-import { promises as fs } from "fs";
+"use server";
+import fs from "fs";
+import path from "path";
 
-export default function Background() {
-	// const files = await fs.readdir(`${process.cwd()}/public/static/anime/`);
-	// console.log(files);
+export default async function Background() {
+	const dir = path.resolve(`./public/static/home/`);
+	const files = await fs.readdirSync(dir);
 
 	return (
 		<style>{`
         .bg-image {
-            background-image: url("/static/anime/urban-day-view.jpg");
+            background-image: url("/static/home/${
+				files[Math.floor(Math.random() * files.length)]
+			}"
+			)}");
         };
         
         `}</style>
