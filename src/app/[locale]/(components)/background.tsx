@@ -3,8 +3,7 @@ import fs from "fs";
 import path from "path";
 
 export default async function Background() {
-	const dir = path.resolve(`./public/static/home/`);
-	const files = await fs.readdirSync(dir);
+	const files = await fs.readdirSync(`/public/static/home/`);
 
 	return (
 		<style>{`
