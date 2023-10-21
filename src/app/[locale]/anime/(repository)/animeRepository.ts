@@ -74,17 +74,4 @@ export async function getAnimeBlog(locale: string, id: string) {
 	return animePost;
 }
 
-export async function getAnimeContent(locale: string, dirPath: string) {
-	var content: any;
-	try {
-
-		const file = path.join(process.cwd(), `/public${dirPath}content-${locale}.html`);
-		content = await readFileSync(file, 'utf8');
-	} catch (err) {
-		content = "<p>No Content Available</p>"
-	} finally {
-		return content;
-	}
-}
-
 // prisma.$disconnect();
