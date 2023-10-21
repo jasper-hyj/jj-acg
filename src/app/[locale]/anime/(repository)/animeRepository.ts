@@ -8,8 +8,9 @@ import { JsonArray } from "@prisma/client/runtime/library";
 import { copyFileSync, promises as fs } from 'fs';
 import { readFileSync } from 'fs';
 import path from 'path';
+import { getFirestore, doc, setDoc } from "firebase/firestore";
 
-let db: any = null;
+// let db: any = null;
 export interface AnimePost {
 	id: string
 	imagePath: string

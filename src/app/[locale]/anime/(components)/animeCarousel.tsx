@@ -22,7 +22,7 @@ export default async function AnimeCarousel({ locale }: { locale: string }) {
 					></button>
 				))}
 			</div>
-			<div className="carousel-inner" style={{ height: "700px" }}>
+			<div className="carousel-inner" style={{ height: "500px" }}>
 				{animePosts.map((animePost, index) => (
 					<div
 						key={animePost.id}
