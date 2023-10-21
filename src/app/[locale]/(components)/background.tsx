@@ -9,9 +9,7 @@ export default async function Background() {
 	return (
 		<style>{`
         .bg-image {
-            background-image: url("/static/home/${
-				files[Math.floor(Math.random() * files.length)]
-			}"
+            background-image: url("/static/home/urban-day-view.jpg"
 			)}");
         };
         

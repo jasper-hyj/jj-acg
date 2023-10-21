@@ -28,7 +28,7 @@ export default async function Page({
 				<h1>{animeBlog.animeName}</h1>
 				<h5>簡介</h5>
 				<p>{animeBlog.animeDescr}</p>
-				<div dangerouslySetInnerHTML={{ __html: content }}></div>
+				{/* <div dangerouslySetInnerHTML={{ __html: content }}></div> */}
 			</div>
 			<p>{params.id}</p>
 		</>
