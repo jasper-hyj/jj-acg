@@ -8,7 +8,7 @@ export default async function Card({ posts }: { posts: Post[] }) {
 			{posts.map((post, index) => (
 				<div className="col-sm-6 col-lg-4 mb-4" key={post.id}>
 					<a
-						href={`/${post.locale}/${post.type}/${post.id}/`}
+						href={`/${post.locale}/post/${post.id}/`}
 						className="link-underline link-underline-opacity-0"
 					>
 						<div className="card zoom">

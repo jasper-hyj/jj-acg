@@ -22,7 +22,7 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 					></button>
 				))}
 			</div>
-			<div className="carousel-inner" style={{ height: "500px" }}>
+			<div className="carousel-inner" style={{ height: "600px" }}>
 				{posts.map((post, index) => (
 					<div
 						key={post.id}
@@ -33,11 +33,11 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 						}
 						data-bs-interval="5000"
 					>
-						<a href={`/${post.locale}/${post.type}/${post.id}/`}>
+						<a href={`/${post.locale}/post/${post.id}/`}>
 							<img
 								sizes="100vw"
 								className="d-block object-fit-cover w-100 h-100"
-								src={`${post.dirPath}main.jpg`}
+								src={`${post.dirPath}carousel.jpg`}
 								alt=""
 							/>
 							<div className="carousel-caption d-none d-md-block">

@@ -1,7 +1,7 @@
 "use server";
 "use strict";
 import { PrismaClient } from "@prisma/client";
-import animeList from "../../../../../db/anime.json"
+import postJSON from "../../../../db/post.json"
 import sqlite3 from "sqlite3";
 import { open, Database } from "sqlite";
 import { JsonArray } from "@prisma/client/runtime/library";
@@ -9,11 +9,11 @@ import { copyFileSync, promises as fs } from 'fs';
 import { readFileSync } from 'fs';
 import path from 'path';
 import { getFirestore, doc, setDoc } from "firebase/firestore";
-import { Post } from "../../(components)/post";
+import { Post } from "../(components)/post";
 
 // let db: any = null;
 // const prisma = new PrismaClient();
-export async function getAnimeCarousel(locale: string) {
+export async function getPostList(locale: string, type: string, amount?: number) {
 	// GET code for Prisma client
 	// const animeList = await prisma.animePost.findMany({
 	// 	where: {
@@ -41,32 +41,23 @@ export async function getAnimeCarousel(locale: string) {
 	// );
 
 
-	const animePost: Post[] = animeList.filter((anime) => anime.locale === locale);
-	animePost.sort((a, b) => {
+	const postList: Post[] = postJSON.filter((post) => post.locale === locale && post.type === type);
+	postList.sort((a, b) => {
 		if (a.updateAt > b.updateAt) {
 			return -1;
 		} else {
 			return 1;
 		}
 	});
-	return animePost.slice(0, 5);
+	if (typeof amount !== 'undefined') {
+		return postList.slice(0, amount);
+	} else {
+		return postList;
+	}
 }
 
-export async function getAnimeCard(locale: string) {
-	const animePost: Post[] = animeList.filter((anime) => anime.locale === locale);
-	animePost.sort((a, b) => {
-		if (a.updateAt > b.updateAt) {
-			return -1;
-		} else {
-			return 1;
-		}
-	});
-	return animePost;
-}
-
-export async function getAnimeBlog(locale: string, id: string) {
-	const animePost: Post = animeList.filter((anime) => anime.locale == locale && anime.id.toString() == id)[0];
-	return animePost;
+export async function getPost(locale: string, id: string) {
+	return postJSON.filter((post) => post.locale == locale && post.id.toString() == id)[0];
 }
 
 // prisma.$disconnect();

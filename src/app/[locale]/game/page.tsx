@@ -12,8 +12,8 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Page({ params }: { params: { locale: string } }) {
-	const animeCards = await getPostList(params.locale, "anime", 5);
-	const animePosts = await getPostList(params.locale, "anime");
+	const animeCards = await getPostList(params.locale, "game", 5);
+	const animePosts = await getPostList(params.locale, "game");
 	return (
 		<>
 			<Carousel posts={animePosts} />
