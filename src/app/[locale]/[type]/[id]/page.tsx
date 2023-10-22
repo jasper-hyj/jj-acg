@@ -2,28 +2,17 @@
 
 import { Metadata } from "next";
 import { getPost } from "../../(repository)/repository";
-import { getDictionary } from "../../dictionaries";
+import { getDictionary, getTypeName } from "../../dictionaries";
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({
+	params,
+}: {
+	params: { locale: string; type: string };
+}): Promise<Metadata> {
+	const typeName = await getTypeName(params.locale, params.type);
 	return {
-		title: "JJ Anime",
+		title: `${typeName} - JJ ACG`,
 	};
-}
-
-async function getTypeName(locale: string, type: string) {
-	const dict = await getDictionary(locale);
-	switch (type) {
-		case "anime":
-			return dict.anime;
-		case "comic":
-			return dict.comic;
-		case "game":
-			return dict.game;
-		case "novel":
-			return dict.novel;
-		default:
-			return "";
-	}
 }
 
 export default async function Page({

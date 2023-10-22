@@ -33,7 +33,7 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 						}
 						data-bs-interval="5000"
 					>
-						<a href={`/${post.locale}/post/${post.id}/`}>
+						<a href={`/${post.locale}/${post.type}/${post.id}/`}>
 							<img
 								sizes="100vw"
 								className="d-block object-fit-cover w-100 h-100"

@@ -34,12 +34,18 @@ export default function Nav({ dict, locale }: { dict: any; locale: string }) {
 					>
 						{dict.comic}
 					</a>
-					{/* <a
+					<a
 						className="nav-link fw-bold py-1 text-dark"
-						href={"/" + locale + "/anime"}
+						href={"/" + locale + "/game"}
 					>
-						{dict.nav.anime}
-					</a> */}
+						{dict.game}
+					</a>
+					<a
+						className="nav-link fw-bold py-1 text-dark"
+						href={"/" + locale + "/novel"}
+					>
+						{dict.novel}
+					</a>
 					<a
 						className="nav-link fw-bold py-1 text-dark"
 						href={dict.nav.c_lang_link + pathName}
