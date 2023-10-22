@@ -26,8 +26,8 @@ export default async function Page({
 	params: { locale: string; type: string };
 }) {
 	if (!availableTypes.includes(params.type)) redirect(`/${params.locale}/`);
-	const cards = await getPostList(params.locale, params.type, 5);
-	const posts = await getPostList(params.locale, params.type);
+	const cards = await getPostList(params.locale, params.type);
+	const posts = await getPostList(params.locale, params.type, 5);
 	return (
 		<>
 			<Carousel posts={posts} />

@@ -37,7 +37,7 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 							<img
 								sizes="100vw"
 								className="d-block object-fit-cover w-100 h-100"
-								src={`${post.dirPath}carousel.jpg`}
+								src={`/static/acgn/${post.dirPath}/carousel.jpg`}
 								alt=""
 							/>
 							<div className="carousel-caption d-none d-md-block">

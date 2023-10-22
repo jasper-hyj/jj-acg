@@ -16,7 +16,7 @@ export default async function Card({ posts }: { posts: Post[] }) {
 								style={{ width: "100%", height: "auto" }}
 								className="bd-placeholder-img card-img-top"
 								role="img"
-								src={`${post.dirPath}main.jpg`}
+								src={`/static/acgn/${post.dirPath}/main.jpg`}
 								alt=""
 							/>
 
