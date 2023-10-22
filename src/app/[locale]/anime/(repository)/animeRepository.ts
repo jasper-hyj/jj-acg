@@ -9,15 +9,9 @@ import { copyFileSync, promises as fs } from 'fs';
 import { readFileSync } from 'fs';
 import path from 'path';
 import { getFirestore, doc, setDoc } from "firebase/firestore";
+import { Post } from "../../(components)/post";
 
 // let db: any = null;
-export interface AnimePost {
-	id: string
-	imagePath: string
-	animeName: string
-	animeDescr: string
-	updateAt: string
-}
 // const prisma = new PrismaClient();
 export async function getAnimeCarousel(locale: string) {
 	// GET code for Prisma client
@@ -47,7 +41,7 @@ export async function getAnimeCarousel(locale: string) {
 	// );
 
 
-	const animePost = animeList.filter((anime) => anime.locale === locale);
+	const animePost: Post[] = animeList.filter((anime) => anime.locale === locale);
 	animePost.sort((a, b) => {
 		if (a.updateAt > b.updateAt) {
 			return -1;
@@ -59,7 +53,7 @@ export async function getAnimeCarousel(locale: string) {
 }
 
 export async function getAnimeCard(locale: string) {
-	const animePost = animeList.filter((anime) => anime.locale === locale);
+	const animePost: Post[] = animeList.filter((anime) => anime.locale === locale);
 	animePost.sort((a, b) => {
 		if (a.updateAt > b.updateAt) {
 			return -1;
@@ -71,7 +65,7 @@ export async function getAnimeCard(locale: string) {
 }
 
 export async function getAnimeBlog(locale: string, id: string) {
-	const animePost = animeList.filter((anime) => anime.locale == locale && anime.id.toString() == id)[0];
+	const animePost: Post = animeList.filter((anime) => anime.locale == locale && anime.id.toString() == id)[0];
 	return animePost;
 }
 
