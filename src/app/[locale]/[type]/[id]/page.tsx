@@ -25,7 +25,7 @@ export default async function Page({
 	return (
 		<div className="container">
 			<img
-				src={`${post.dirPath}main.jpg`}
+				src={`/static/acgn/${post.dirPath}/main.jpg`}
 				className="img-fluid rounded my-3"
 				alt="..."
 				width={"75%"}
