@@ -24,7 +24,7 @@ export async function getAcgnList(locale: string, type: string, amount?: number)
 		}
 	});
 	if (typeof amount !== 'undefined') {
-		return acgnList.slice(0, amount);
+		return acgnList.sort(() => 0.5 - Math.random()).slice(0, amount);
 	} else {
 		return acgnList;
 	}
