@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 export default function Nav({ dict, locale }: { dict: any; locale: string }) {
 	const pathName = usePathname().slice(4);
 	return (
-		<header className="p-3 mb-auto bg-blur">
+		<header className="p-3 mb-auto bg-blur sticky-top">
 			<div className="container">
 				<a
 					className="navbar-brand float-md-start mb-0 align-middle"

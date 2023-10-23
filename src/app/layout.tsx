@@ -17,6 +17,7 @@ export default async function RootLayout({
 			className="h-100 w-100"
 			lang={params.locale}
 			data-bs-theme="light"
+			data-scroll="0"
 		>
 			{/* body: with filled container */}
 			<body className="w-100">
