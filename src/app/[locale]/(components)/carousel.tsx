@@ -1,8 +1,8 @@
 "use server";
 
-import { Post } from "./post";
+import { Acgn } from "./acgn";
 
-export default async function Carousel({ posts }: { posts: Post[] }) {
+export default async function Carousel({ acgns }: { acgns: Acgn[] }) {
 	return (
 		<div
 			id="carousel"
@@ -10,9 +10,9 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 			data-bs-ride="carousel"
 		>
 			<div className="carousel-indicators">
-				{posts.map((post, index) => (
+				{acgns.map((acgn, index) => (
 					<button
-						key={post.id}
+						key={acgn.id}
 						type="button"
 						data-bs-target="#carousel"
 						data-bs-slide-to={index}
@@ -23,9 +23,9 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 				))}
 			</div>
 			<div className="carousel-inner" style={{ height: "600px" }}>
-				{posts.map((post, index) => (
+				{acgns.map((acgn, index) => (
 					<div
-						key={post.id}
+						key={acgn.id}
 						className={
 							index == 0
 								? "active carousel-item w-100 h-100"
@@ -33,17 +33,17 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 						}
 						data-bs-interval="5000"
 					>
-						<a href={`/${post.locale}/${post.type}/${post.id}/`}>
+						<a href={`/${acgn.locale}/${acgn.type}/${acgn.id}/`}>
 							<img
 								sizes="100vw"
 								className="d-block object-fit-cover w-100 h-100"
-								src={`/static/acgn/${post.dirPath}/carousel.jpg`}
+								src={`/static/acgn/${acgn.id}/carousel.jpg`}
 								alt=""
 							/>
 							<div className="carousel-caption px-1 d-md-block bg-blur">
-								<h4>{post.name}</h4>
+								<h4>{acgn.name}</h4>
 								<p className="d-none d-md-block">
-									{post.descr}
+									{acgn.descr}
 								</p>
 							</div>
 						</a>

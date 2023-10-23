@@ -1,7 +1,7 @@
 "use server";
 "use strict";
 import { PrismaClient } from "@prisma/client";
-import postJSON from "../../../../db/post.json"
+import acgnJSON from "../../../../db/acgn.json"
 import sqlite3 from "sqlite3";
 import { open, Database } from "sqlite";
 import { JsonArray } from "@prisma/client/runtime/library";
@@ -9,11 +9,11 @@ import { copyFileSync, promises as fs } from 'fs';
 import { readFileSync } from 'fs';
 import path from 'path';
 import { getFirestore, doc, setDoc } from "firebase/firestore";
-import { Post } from "../(components)/post";
+import { Acgn } from "../(components)/acgn";
 
 // let db: any = null;
 // const prisma = new PrismaClient();
-export async function getPostList(locale: string, type: string, amount?: number) {
+export async function getAcgnList(locale: string, type: string, amount?: number) {
 	// GET code for Prisma client
 	// const animeList = await prisma.animePost.findMany({
 	// 	where: {
@@ -41,8 +41,8 @@ export async function getPostList(locale: string, type: string, amount?: number)
 	// );
 
 
-	const postList: Post[] = postJSON.filter((post) => post.locale === locale && post.type === type);
-	postList.sort((a, b) => {
+	const acgnList: Acgn[] = acgnJSON.filter((acgn) => acgn.locale === locale && acgn.type === type);
+	acgnList.sort((a, b) => {
 		if (a.updateAt > b.updateAt) {
 			return -1;
 		} else {
@@ -50,14 +50,14 @@ export async function getPostList(locale: string, type: string, amount?: number)
 		}
 	});
 	if (typeof amount !== 'undefined') {
-		return postList.slice(0, amount);
+		return acgnList.slice(0, amount);
 	} else {
-		return postList;
+		return acgnList;
 	}
 }
 
-export async function getPost(locale: string, id: string) {
-	return postJSON.filter((post) => post.locale == locale && post.id.toString() == id)[0];
+export async function getAcgn(locale: string, id: string) {
+	return acgnJSON.filter((acgn) => acgn.locale == locale && acgn.id.toString() == id)[0];
 }
 
 // prisma.$disconnect();

@@ -1,7 +1,7 @@
 "use server";
 
 import { Metadata } from "next";
-import { getPostList } from "../(repository)/repository";
+import { getAcgnList } from "../(repository)/acgnRepository";
 import Card from "../(components)/card";
 import Carousel from "../(components)/carousel";
 import { redirect } from "next/navigation";
@@ -26,13 +26,13 @@ export default async function Page({
 	params: { locale: string; type: string };
 }) {
 	if (!availableTypes.includes(params.type)) redirect(`/${params.locale}/`);
-	const cards = await getPostList(params.locale, params.type);
-	const posts = await getPostList(params.locale, params.type, 5);
+	const cards = await getAcgnList(params.locale, params.type);
+	const acgns = await getAcgnList(params.locale, params.type, 5);
 	return (
 		<>
-			<Carousel posts={posts} />
+			<Carousel acgns={acgns} />
 			<div className="container mt-5">
-				<Card posts={cards} />
+				<Card acgns={cards} />
 			</div>
 		</>
 	);

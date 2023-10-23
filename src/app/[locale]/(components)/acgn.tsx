@@ -1,10 +1,9 @@
-interface Post {
-	acgnId: string;
+export interface Acgn {
 	id: string;
 	locale: string;
-	title: string;
+	type: string;
+	name: string;
 	descr: string;
-	content: string;
 	createAt: string;
 	updateAt: string;
 }
