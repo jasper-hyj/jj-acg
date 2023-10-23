@@ -19,5 +19,9 @@
 		"content": "Could not find requested resource",
 		"link": "/en/",
 		"link_content": "Return Home"
+	},
+	"post": {
+		"intro": "Description",
+		"relate": "Related Articles"
 	}
 }

@@ -13,5 +13,9 @@
 		"c_lang": "English",
 		"c_lang_link": "/en/"
 	},
-	"test": "測試"
+	"test": "測試",
+	"post": {
+		"intro": "簡介",
+		"relate": "相關文章"
+	}
 }

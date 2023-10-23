@@ -24,6 +24,7 @@ export default async function Page({
 	const acgn = await getAcgn(params.locale, params.id);
 	const typeName = await getTypeName(params.locale, acgn.type);
 	const postList = await getPostList(params.locale, acgn.id);
+	const dict = await getDictionary(params.locale);
 	return (
 		<div className="container mt-3">
 			<div className="row">
@@ -31,18 +32,18 @@ export default async function Page({
 					<h2>{`${typeName} - ${acgn.name}`}</h2>
 					<img
 						src={`/static/acgn/${acgn.id}/main.jpg`}
-						className="img-fluid rounded my-3"
+						className="img-fluid rounded mb-3"
 						alt="..."
 						width={"75%"}
 					/>
-					<h5>簡介</h5>
+					<h5>{dict.post.intro}</h5>
 					<p>{acgn.descr}</p>
 				</div>
-				<div className="col-md-6 col-sm-12">
-					<h4>相關文章</h4>
+				<div className="col-md-6 col-sm-12 mt-3">
+					<h4>{dict.post.relate}</h4>
 					{postList.map((post, index) => (
 						<div key={`${post.acgnId}-${post.id}`}>
-							<div className="card mb-3 zoom">
+							<div className="card mt-3 zoom">
 								<div className="row g-0">
 									<div className="col-md-4">
 										<img
