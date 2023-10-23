@@ -22,6 +22,8 @@
 		"next-contentlayer": "^0.3.3",
 		"react": "^18",
 		"react-dom": "^18",
+		"remark": "^15.0.1",
+		"remark-html": "^16.0.1",
 		"sqlite": "^5.0.1",
 		"sqlite3": "^5.1.6"
 	},
