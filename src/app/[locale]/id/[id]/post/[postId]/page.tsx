@@ -1,17 +1,15 @@
 "use server";
 
 import { getPost } from "@/app/[locale]/(repository)/postRepository";
-import { getTypeName } from "@/app/[locale]/dictionaries";
 import { Metadata } from "next";
 
 export async function generateMetadata({
 	params,
 }: {
-	params: { locale: string; type: string };
+	params: { locale: string };
 }): Promise<Metadata> {
-	const typeName = await getTypeName(params.locale, params.type);
 	return {
-		title: `${typeName} - JJ ACG`,
+		title: `JJ ACG`,
 	};
 }
 
@@ -24,13 +22,13 @@ export default async function Page({
 	return (
 		<>
 			<div>
-				<h1>{post.title}</h1>
+				<h1 className="my-4">{post.title}</h1>
 				<img
 					src={`/static/acgn/${post.acgnId}/post/${post.id}-main.jpg`}
 					alt=""
 					style={{ width: "70%" }}
 				/>
-				<p>
+				<p className="my-3">
 					<small>{post.updateAt}</small>
 				</p>
 				<p>{post.content}</p>

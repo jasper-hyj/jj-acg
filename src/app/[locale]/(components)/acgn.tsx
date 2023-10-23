@@ -1,7 +1,7 @@
 export interface Acgn {
 	id: string;
 	locale: string;
-	type: string;
+	type: string[];
 	name: string;
 	descr: string;
 	createAt: string;

@@ -33,7 +33,7 @@ export default async function Carousel({ acgns }: { acgns: Acgn[] }) {
 						}
 						data-bs-interval="5000"
 					>
-						<a href={`/${acgn.locale}/${acgn.type}/${acgn.id}/`}>
+						<a href={`/${acgn.locale}/id/${acgn.id}/`}>
 							<img
 								sizes="100vw"
 								className="d-block object-fit-cover w-100 h-100"
