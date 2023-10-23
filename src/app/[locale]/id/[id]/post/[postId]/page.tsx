@@ -22,6 +22,7 @@ export default async function Page({
 }) {
 	const post = await getPost(params.locale, params.id, params.postId);
 	const contentHTML = await remark().use(remarkHTML).process(post.content);
+
 	return (
 		<>
 			<div>
