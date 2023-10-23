@@ -24,7 +24,7 @@ export default async function Page({
 			<div>
 				<h1 className="my-4">{post.title}</h1>
 				<img
-					src={`/static/acgn/${post.acgnId}/post/${post.id}-main.jpg`}
+					src={`/static/acgn/${post.acgnId}/${post.id}-main.jpg`}
 					alt=""
 					style={{ width: "70%" }}
 				/>
