@@ -165,7 +165,7 @@
 		"locale": "en",
 		"type": ["game"],
 		"name": "Apex Legends",
-		"descr": "",
+		"descr": "Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts.",
 		"id": "apex-legends",
 		"createAt": "2023-10-22 21:11:00",
 		"updateAt": "2023-10-22 21:11:00"
@@ -174,7 +174,7 @@
 		"locale": "zh",
 		"type": ["game"],
 		"name": "Apex 英雄",
-		"descr": "",
+		"descr": "《Apex 英雄》（英語：Apex Legends），是一個由Respawn Entertainment開發、美商藝電發行的免費大逃殺類多人線上角色扮演第一人稱射擊遊戲，沿用《泰坦降臨系列》的世界觀。",
 		"id": "apex-legends",
 		"createAt": "2023-10-22 21:11:00",
 		"updateAt": "2023-10-22 21:11:00"
@@ -183,7 +183,7 @@
 		"locale": "en",
 		"type": ["game"],
 		"name": "Overwatch",
-		"descr": "",
+		"descr": "Overwatch (retroactively referred to as Overwatch 1) was a 2016 team-based multiplayer first-person shooter game by Blizzard Entertainment. ",
 		"id": "overwatch",
 		"createAt": "2023-10-22 21:18:00",
 		"updateAt": "2023-10-22 21:18:00"
@@ -192,7 +192,7 @@
 		"locale": "zh",
 		"type": ["game"],
 		"name": "鬥陣特工",
-		"descr": "",
+		"descr": "《鬥陣特攻》（英語：Overwatch，中國大陸譯作「守望先鋒」），也常簡稱為鬥陣，是一款由暴雪娛樂開發並發行的多人第一人稱射擊遊戲。",
 		"id": "overwatch",
 		"createAt": "2023-10-22 21:18:00",
 		"updateAt": "2023-10-22 21:18:00"
@@ -201,7 +201,7 @@
 		"locale": "en",
 		"type": ["game"],
 		"name": "Genshin Impact",
-		"descr": "",
+		"descr": "Genshin Impact[a] is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, d/b/a HoYoverse.",
 		"id": "genshin-impact",
 		"createAt": "2023-10-22 21:26:00",
 		"updateAt": "2023-10-22 21:26:00"
@@ -210,7 +210,7 @@
 		"locale": "zh",
 		"type": ["game"],
 		"name": "原神",
-		"descr": "",
+		"descr": "《原神》是由米哈遊開發的動作角色扮演遊戲，於2020年9月登陸Microsoft Windows、Android、iOS、PlayStation 4，2021年4月在PlayStation 5上線。遊戲具有動漫風格的開放世界環境，採用基於抽卡的基本免費及道具收費制。",
 		"id": "genshin-impact",
 		"createAt": "2023-10-22 21:26:00",
 		"updateAt": "2023-10-22 21:26:00"

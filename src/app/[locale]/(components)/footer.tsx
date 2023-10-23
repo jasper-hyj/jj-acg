@@ -60,7 +60,7 @@ export default function Footer() {
 					</li>
 				</ul>
 				<p className="text-center text-muted">
-					© 2023 anime.jj-ghost.me
+					© 2023 anime.jj-ghost.me / style based on Bootstrap
 				</p>
 			</footer>
 		</div>
