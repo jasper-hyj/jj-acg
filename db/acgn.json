@@ -160,5 +160,59 @@
 		"id": "100-nin-no-kanojo",
 		"createAt": "2023-10-22 20:30:00",
 		"updateAt": "2023-10-22 20:30:00"
+	},
+	{
+		"locale": "en",
+		"type": ["game"],
+		"name": "Apex Legends",
+		"descr": "",
+		"id": "apex-legends",
+		"createAt": "2023-10-22 21:11:00",
+		"updateAt": "2023-10-22 21:11:00"
+	},
+	{
+		"locale": "zh",
+		"type": ["game"],
+		"name": "Apex 英雄",
+		"descr": "",
+		"id": "apex-legends",
+		"createAt": "2023-10-22 21:11:00",
+		"updateAt": "2023-10-22 21:11:00"
+	},
+	{
+		"locale": "en",
+		"type": ["game"],
+		"name": "Overwatch",
+		"descr": "",
+		"id": "overwatch",
+		"createAt": "2023-10-22 21:18:00",
+		"updateAt": "2023-10-22 21:18:00"
+	},
+	{
+		"locale": "zh",
+		"type": ["game"],
+		"name": "鬥陣特工",
+		"descr": "",
+		"id": "overwatch",
+		"createAt": "2023-10-22 21:18:00",
+		"updateAt": "2023-10-22 21:18:00"
+	},
+	{
+		"locale": "en",
+		"type": ["game"],
+		"name": "Genshin Impact",
+		"descr": "",
+		"id": "genshin-impact",
+		"createAt": "2023-10-22 21:26:00",
+		"updateAt": "2023-10-22 21:26:00"
+	},
+	{
+		"locale": "zh",
+		"type": ["game"],
+		"name": "原神",
+		"descr": "",
+		"id": "genshin-impact",
+		"createAt": "2023-10-22 21:26:00",
+		"updateAt": "2023-10-22 21:26:00"
 	}
 ]
