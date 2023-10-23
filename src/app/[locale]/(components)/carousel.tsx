@@ -40,9 +40,11 @@ export default async function Carousel({ posts }: { posts: Post[] }) {
 								src={`/static/acgn/${post.dirPath}/carousel.jpg`}
 								alt=""
 							/>
-							<div className="carousel-caption d-none d-md-block bg-blur">
+							<div className="carousel-caption px-1 d-md-block bg-blur">
 								<h4>{post.name}</h4>
-								<p>{post.descr}</p>
+								<p className="d-none d-md-block">
+									{post.descr}
+								</p>
 							</div>
 						</a>
 					</div>
