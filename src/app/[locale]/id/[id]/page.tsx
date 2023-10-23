@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import { getAcgn } from "../../(repository)/acgnRepository";
 import { getDictionary } from "../../dictionaries";
 import { getPostList } from "../../(repository)/postRepository";
+import Link from "next/link";
 
 export async function generateMetadata({
 	params,
@@ -41,7 +42,7 @@ export default async function Page({
 					<h4>{dict.post.relate}</h4>
 					{postList.map((post, index) => (
 						<div key={`${post.acgnId}-${post.id}`}>
-							<a
+							<Link
 								href={`/${acgn.locale}/id/${acgn.id}/post/${post.id}/`}
 								className="link-underline link-underline-opacity-0"
 							>
@@ -71,7 +72,7 @@ export default async function Page({
 										</div>
 									</div>
 								</div>
-							</a>
+							</Link>
 						</div>
 					))}
 				</div>

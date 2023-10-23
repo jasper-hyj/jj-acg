@@ -31,7 +31,7 @@ export default async function Page({
 				<p className="my-3">
 					<small>{post.updateAt}</small>
 				</p>
-				<p>{post.content}</p>
+				<div dangerouslySetInnerHTML={{ __html: post.content }}></div>
 			</div>
 		</>
 	);

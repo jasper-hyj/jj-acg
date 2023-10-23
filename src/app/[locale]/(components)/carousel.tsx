@@ -1,5 +1,6 @@
 "use server";
 
+import Link from "next/link";
 import { Acgn } from "./acgn";
 
 export default async function Carousel({ acgns }: { acgns: Acgn[] }) {
@@ -33,7 +34,7 @@ export default async function Carousel({ acgns }: { acgns: Acgn[] }) {
 						}
 						data-bs-interval="5000"
 					>
-						<a href={`/${acgn.locale}/id/${acgn.id}/`}>
+						<Link href={`/${acgn.locale}/id/${acgn.id}/`}>
 							<img
 								sizes="100vw"
 								className="d-block object-fit-cover w-100 h-100"
@@ -46,7 +47,7 @@ export default async function Carousel({ acgns }: { acgns: Acgn[] }) {
 									{acgn.descr}
 								</p>
 							</div>
-						</a>
+						</Link>
 					</div>
 				))}
 			</div>
