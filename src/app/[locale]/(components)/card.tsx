@@ -1,6 +1,4 @@
 "use server";
-
-import Link from "next/link";
 import { Acgn } from "./acgn";
 
 export default async function Card({ acgns }: { acgns: Acgn[] }) {
@@ -8,7 +6,7 @@ export default async function Card({ acgns }: { acgns: Acgn[] }) {
 		<div className="row" data-masonry='{"percentPosition": true }'>
 			{acgns.map((acgn, index) => (
 				<div className="col-sm-6 col-lg-4 mb-4" key={acgn.id}>
-					<Link
+					<a
 						href={`/${acgn.locale}/id/${acgn.id}/`}
 						className="link-underline link-underline-opacity-0"
 					>
@@ -31,7 +29,7 @@ export default async function Card({ acgns }: { acgns: Acgn[] }) {
 								</p>
 							</div>
 						</div>
-					</Link>
+					</a>
 				</div>
 			))}
 		</div>
