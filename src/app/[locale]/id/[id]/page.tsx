@@ -27,7 +27,7 @@ export default async function Page({
 	return (
 		<div className="container mt-3">
 			<div className="row">
-				<div className="col-md-6 col-sm-12">
+				<div className="col-md-6 col-sm-12 mt-3">
 					<h2>{acgn.name}</h2>
 					<img
 						src={`/static/acgn/${acgn.id}/main.jpg`}
@@ -40,6 +40,11 @@ export default async function Page({
 				</div>
 				<div className="col-md-6 col-sm-12 mt-3">
 					<h4>{dict.post.relate}</h4>
+					{postList.length == 0 ? (
+						<p>No Related Article Yet</p>
+					) : (
+						<></>
+					)}
 					{postList.map((post, index) => (
 						<div key={`${post.acgnId}-${post.id}`}>
 							<Link
