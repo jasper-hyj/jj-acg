@@ -1,12 +1,15 @@
 import type { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
+import GithubProvider from 'next-auth/providers/github';
 
 // Define authentication options using NextAuthOptions interface
 export const authOptions: NextAuthOptions = {
     // Customize authentication pages
-    // pages: {
-    //     signIn: "/login", // Redirect users to "/login" when signing in
-    // },
+    pages: {
+        // signIn: '/auth/signin',
+        // signOut: '/auth/signout',
+        error: '/auth/error', // Error code passed in query string as ?error=
+    },
     // Configure session management
     session: {
         strategy: "jwt", // Use JSON Web Tokens (JWT) for session management
@@ -20,6 +23,10 @@ export const authOptions: NextAuthOptions = {
             clientId: process.env.GOOGLE_CLIENT_ID as string,
             clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
         }),
+        // GithubProvider({
+        //     clientId: process.env.GITHUB_APP_CLIENT_ID as string,
+        //     clientSecret: process.env.GITHUB_APP_CLIENT_SECRET as string,
+        // }),
         // CredentialsProvider({}), // Include a Credentials provider (username/password)
     ],
 };

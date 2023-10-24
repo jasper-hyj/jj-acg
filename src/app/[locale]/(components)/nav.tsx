@@ -1,10 +1,48 @@
 "use client";
-import a from "next/link";
 import Icon from "./icon";
 import { usePathname } from "next/navigation";
+import { signOut, useSession, signIn } from "next-auth/react";
 
 export default function Nav({ dict, locale }: { dict: any; locale: string }) {
+	const { data: session, status } = useSession();
 	const pathName = usePathname().slice(4);
+
+	let auth, user;
+	if (status === "authenticated") {
+		auth = (
+			<a
+				role="button"
+				className="nav-link fw-bold py-1 text-dark"
+				onClick={() => signOut()}
+			>
+				Signout
+			</a>
+		);
+		user =
+			session.user?.image !== null && session.user?.name !== null ? (
+				<img
+					style={{
+						width: "32px",
+						height: "32px",
+						borderRadius: "50%",
+					}}
+					src={session.user?.image!}
+					alt={session.user?.name}
+				/>
+			) : (
+				<></>
+			);
+	} else {
+		auth = (
+			<a
+				role="button"
+				className="nav-link fw-bold py-1 text-dark"
+				onClick={() => signIn("google")}
+			>
+				Signin
+			</a>
+		);
+	}
 	return (
 		<header className="p-3 mb-auto bg-blur sticky-top">
 			<div className="container">
@@ -53,6 +91,8 @@ export default function Nav({ dict, locale }: { dict: any; locale: string }) {
 					>
 						{dict.nav.c_lang}
 					</a>
+					{auth}
+					{user}
 				</nav>
 			</div>
 		</header>
