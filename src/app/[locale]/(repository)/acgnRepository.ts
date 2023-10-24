@@ -1,7 +1,7 @@
 "use server";
 "use strict";
 import { PrismaClient } from "@prisma/client";
-import acgnJSON from "../../../../db/acgn.json"
+import acgnJSON from "@/resources/db/acgn.json"
 import sqlite3 from "sqlite3";
 import { open, Database } from "sqlite";
 import { JsonArray } from "@prisma/client/runtime/library";

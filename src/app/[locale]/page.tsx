@@ -1,10 +1,12 @@
 "use server";
 import dynamic from "next/dynamic";
+import { getDictionary } from "./dictionaries";
+import type { Metadata, ResolvingMetadata } from "next";
+import { getServerSession } from "next-auth";
+import { authOptions } from "../lib/auth";
 const Background = dynamic(() => import("./(components)/background"), {
 	ssr: false,
 });
-import { getDictionary } from "./dictionaries";
-import type { Metadata, ResolvingMetadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
 	return {
@@ -14,6 +16,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Page({ params }: { params: { locale: string } }) {
 	const dict = await getDictionary(params.locale);
+	const session = await getServerSession(authOptions);
+	console.log(session);
 	return (
 		<main className="p-5 mx-auto bg-blur">
 			<Background />

@@ -1,7 +1,7 @@
 "use server";
 "use strict";
 
-import postJSON from "../../../../db/post.json";
+import postJSON from "@/resources/db/post.json";
 
 export async function getPostList(locale: string, acgnId: string) {
     const postList: Post[] = postJSON.filter((post) => post.locale == locale && post.acgnId == acgnId);

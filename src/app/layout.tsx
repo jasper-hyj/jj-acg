@@ -1,6 +1,9 @@
 "use server";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Script from "next/script";
+import { SessionProvider } from "next-auth/react";
+import { ReactNode } from "react";
+import NextAuthProvider from "./nextAuthProvider";
 
 export async function generateStaticParams() {
 	return [{ lang: "en" }, { lang: "zh" }];
@@ -21,16 +24,17 @@ export default async function RootLayout({
 		>
 			{/* body: with filled container */}
 			<body className="w-100">
-				{children}
-				{/* Static js */}
+				<NextAuthProvider>
+					{children}
 
-				<Script type="text/javascript" src="/static/js/style.js" />
-				<Script
-					type="text/javascript"
-					src="/static/js/bootstrap.bundle.min.js"
-				/>
-				<Script id="image-loading-script">
-					{`
+					{/* Static js */}
+					<Script type="text/javascript" src="/static/js/style.js" />
+					<Script
+						type="text/javascript"
+						src="/static/js/bootstrap.bundle.min.js"
+					/>
+					<Script id="image-loading-script">
+						{`
 					Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
 						var tag = document.createElement("script");
 						tag.src = "https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js";
@@ -38,7 +42,8 @@ export default async function RootLayout({
 						tag.integrity = "sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
 						document.getElementsByTagName("body")[0].appendChild(tag);
 					});`}
-				</Script>
+					</Script>
+				</NextAuthProvider>
 			</body>
 		</html>
 	);
