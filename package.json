@@ -25,7 +25,8 @@
 		"remark": "^15.0.1",
 		"remark-html": "^16.0.1",
 		"sqlite": "^5.0.1",
-		"sqlite3": "^5.1.6"
+		"sqlite3": "^5.1.6",
+		"to-vfile": "^8.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "^20",

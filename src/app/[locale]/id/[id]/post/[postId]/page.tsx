@@ -2,6 +2,7 @@
 
 import { getPost } from "@/app/[locale]/(repository)/postRepository";
 import { Metadata } from "next";
+import { read } from "to-vfile";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 
@@ -21,8 +22,18 @@ export default async function Page({
 	params: { locale: string; id: string; postId: string };
 }) {
 	const post = await getPost(params.locale, params.id, params.postId);
-	const contentHTML = await remark().use(remarkHTML).process(post.content);
-
+	var contentHTML;
+	try {
+		contentHTML = await remark()
+			.use(remarkHTML)
+			.process(
+				await read(`./post/${post.acgnId}-${post.locale}-${post.id}.md`)
+			);
+		contentHTML = contentHTML.value;
+	} catch (e) {
+		contentHTML = "";
+	}
+	// contentHTML = await remark().use(remarkHTML).process(post.content);
 	return (
 		<>
 			<div>
@@ -35,9 +46,7 @@ export default async function Page({
 				<p className="my-3">
 					<small>{post.updateAt}</small>
 				</p>
-				<div
-					dangerouslySetInnerHTML={{ __html: contentHTML.value }}
-				></div>
+				<div dangerouslySetInnerHTML={{ __html: contentHTML }}></div>
 			</div>
 		</>
 	);
