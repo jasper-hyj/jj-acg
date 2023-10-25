@@ -2,6 +2,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Script from "next/script";
 import NextAuthProvider from "./nextAuthProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 export async function generateStaticParams() {
 	return [{ lang: "en" }, { lang: "zh" }];
@@ -42,6 +43,7 @@ export default async function RootLayout({
 					});`}
 					</Script>
 				</NextAuthProvider>
+				<Analytics />
 			</body>
 		</html>
 	);
