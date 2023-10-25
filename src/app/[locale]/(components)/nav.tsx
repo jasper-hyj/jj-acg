@@ -1,45 +1,94 @@
-"use client";
+"use server";
 import Icon from "./icon";
-import { usePathname } from "next/navigation";
 import { signOut, useSession, signIn } from "next-auth/react";
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/app/lib/auth";
+import { headers } from "next/headers";
 
-export default function Nav({ dict, locale }: { dict: any; locale: string }) {
-	const { data: session, status } = useSession();
-	const pathName = usePathname().slice(4);
+export default async function Nav({
+	dict,
+	locale,
+}: {
+	dict: any;
+	locale: string;
+}) {
+	const session = await getServerSession(authOptions);
+	// const { data: session, status } = useSession();
 
-	let auth, user;
-	if (status === "authenticated") {
-		auth = (
-			<a
-				role="button"
-				className="nav-link fw-bold py-1 text-dark"
-				onClick={() => signOut()}
-			>
-				Signout
-			</a>
-		);
-		user =
+	const headersList = headers();
+	// read the custom x-url header
+	const header_path = headersList.get("x-invoke-path") || "";
+	console.log(header_path);
+	// const pathName = headersList.get("path").slice(4);
+
+	let auth;
+	if (session !== null) {
+		auth =
 			session.user?.image !== null && session.user?.name !== null ? (
-				<img
-					style={{
-						width: "32px",
-						height: "32px",
-						borderRadius: "50%",
-					}}
-					src={session.user?.image!}
-					alt={session.user?.name}
-				/>
+				<div className="nav-link py-0 dropdown dropdown-center">
+					<button
+						style={{
+							width: "32px",
+							height: "32px",
+							borderRadius: "50%",
+						}}
+						className="btn p-0 btn-secondary"
+						role="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false"
+					>
+						<img
+							style={{
+								width: "32px",
+								height: "32px",
+								borderRadius: "50%",
+							}}
+							src={session.user?.image!}
+							alt={session.user?.name}
+						/>
+					</button>
+
+					<ul className="dropdown-menu">
+						<li>
+							<a
+								className="dropdown-item"
+								href={`/${locale}/user`}
+							>
+								My Profile
+							</a>
+						</li>
+						<li>
+							<a
+								className="dropdown-item"
+								href={`/${locale}/settings`}
+							>
+								Settings
+							</a>
+						</li>
+
+						<li>
+							<hr className="dropdown-divider" />
+						</li>
+						<li>
+							<a
+								href="/api/auth/signout"
+								className="nav-link fw-bold py-1 text-dark"
+							>
+								Sign Out
+							</a>
+						</li>
+					</ul>
+				</div>
 			) : (
 				<></>
 			);
 	} else {
 		auth = (
 			<a
-				role="button"
 				className="nav-link fw-bold py-1 text-dark"
-				onClick={() => signIn("google")}
+				href="/api/auth/signin"
 			>
-				Signin
+				Sign In
 			</a>
 		);
 	}
@@ -48,12 +97,9 @@ export default function Nav({ dict, locale }: { dict: any; locale: string }) {
 			<div className="container">
 				<a
 					className="navbar-brand float-md-start mb-0 align-middle"
-					href="/"
+					href={`/${locale}/`}
 				>
-					<div
-						className="d-flex align-items-center justify-content-between
-							"
-					>
+					<div className="d-flex align-items-center justify-content-between">
 						<Icon />
 						<span className="navbar-brand mb-0 h1 fs-3">
 							{dict.nav.title}
@@ -87,12 +133,11 @@ export default function Nav({ dict, locale }: { dict: any; locale: string }) {
 					</a>
 					<a
 						className="nav-link fw-bold py-1 text-dark"
-						href={dict.nav.c_lang_link + pathName}
+						href={dict.nav.c_lang_link + header_path}
 					>
 						{dict.nav.c_lang}
 					</a>
 					{auth}
-					{user}
 				</nav>
 			</div>
 		</header>

@@ -6,6 +6,7 @@ import { read } from "to-vfile";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 import { getAcgn } from "@/app/[locale]/(repository)/acgnRepository";
+import Link from "next/link";
 
 export async function generateMetadata({
 	params,
@@ -44,14 +45,14 @@ export default async function Page({
 			style={{ maxWidth: "1000px" }}
 		>
 			<div>
-				<a
+				<Link
 					href={`/${acgn.locale}/id/${acgn.id}/`}
 					className="link-underline link-underline-opacity-0"
 				>
 					<p className="ps-1 mt-4 mb-2 text-body-secondary">
 						{`> ${acgn.name}`}
 					</p>
-				</a>
+				</Link>
 				<h1 className="mb-1">{`${post.title}`}</h1>
 				<p className="ps-1 mb-1">
 					<small>{post.updateAt}</small>
