@@ -43,11 +43,13 @@ body::before {
 
 .zoom {
 	transition: all 0.5s;
+	opacity: 0.8;
 	box-shadow: var(--bs-box-shadow);
 }
 
 .zoom:hover {
-	transform: scale(1.05);
+	transform: scale(1.025);
+	opacity: 1;
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 

@@ -214,5 +214,41 @@
 		"id": "genshin-impact",
 		"createAt": "2023-10-22 21:26:00",
 		"updateAt": "2023-10-22 21:26:00"
+	},
+	{
+		"locale": "en",
+		"type": ["game"],
+		"name": "Genshin Impact",
+		"descr": "Genshin Impact is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, d/b/a HoYoverse.",
+		"id": "genshin-impact",
+		"createAt": "2023-10-22 21:26:00",
+		"updateAt": "2023-10-22 21:26:00"
+	},
+	{
+		"locale": "zh",
+		"type": ["game"],
+		"name": "原神",
+		"descr": "《原神》是由米哈遊開發的動作角色扮演遊戲，於2020年9月登陸Microsoft Windows、Android、iOS、PlayStation 4，2021年4月在PlayStation 5上線。遊戲具有動漫風格的開放世界環境，採用基於抽卡的基本免費及道具收費制。",
+		"id": "genshin-impact",
+		"createAt": "2023-10-22 21:26:00",
+		"updateAt": "2023-10-22 21:26:00"
+	},
+	{
+		"locale": "zh",
+		"type": ["anime", "novel"],
+		"name": "家裡蹲吸血姬的鬱悶",
+		"descr": "出生於穆爾奈特帝國的貴族吸血鬼少女黛拉可瑪莉，因在學校受欺凌，而導致她在三年前開始過著自我封閉的生活。某一天，科瑪莉得知自己因為父親的關係，而被任命為帝國軍的將軍——七紅天。有志成為小說家的科瑪莉試圖拒絕這個職務，但她被告知，如果她無法履行職責，將會爆炸而死，而且如果她的吸血鬼能力被揭露，她幾乎肯定會被推翻並殺害。儘管可以透過魔核復活，但科瑪莉討厭痛苦，因此在女僕威爾，也就是威爾海茲的支持下，她假裝擁有實力來執行七紅天的工作。然而，虛張聲勢、幸運和周圍的誤解相互疊加，使她被認定為第七部隊的殺戮之主。",
+		"id": "the-vexations-of-a-shut-in-vampire-princess",
+		"createAt": "2023-10-24 21:11:00",
+		"updateAt": "2023-10-24 21:11:00"
+	},
+	{
+		"locale": "en",
+		"type": ["anime", "novel"],
+		"name": "The Vexations of a Shut-In Vampire Princess",
+		"descr": "",
+		"id": "the-vexations-of-a-shut-in-vampire-princess",
+		"createAt": "2023-10-24 21:11:00",
+		"updateAt": "2023-10-24 21:11:00"
 	}
 ]

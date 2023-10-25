@@ -21,7 +21,7 @@ export default async function Carousel({ acgns }: { acgns: Acgn[] }) {
 					></button>
 				))}
 			</div>
-			<div className="carousel-inner" style={{ height: "600px" }}>
+			<div className="carousel-inner" style={{ height: "500px" }}>
 				{acgns.map((acgn, index) => (
 					<div
 						key={acgn.id}
@@ -42,7 +42,10 @@ export default async function Carousel({ acgns }: { acgns: Acgn[] }) {
 							<div className="carousel-caption px-1 d-md-block bg-blur">
 								<h4>{acgn.name}</h4>
 								<p className="d-none d-md-block">
-									{acgn.descr}
+									{`${acgn.descr.slice(
+										0,
+										acgn.descr.length / 2
+									)}...`}
 								</p>
 							</div>
 						</a>

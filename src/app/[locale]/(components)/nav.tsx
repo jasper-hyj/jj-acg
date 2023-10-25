@@ -15,11 +15,12 @@ export default async function Nav({
 	const session = await getServerSession(authOptions);
 	// const { data: session, status } = useSession();
 
+	// headers().forEach((element, index) => {
+	// 	console.log(`${index} - ${element}`);
+	// });
 	const headersList = headers();
-	// read the custom x-url header
-	const header_path = headersList.get("x-invoke-path") || "";
-	console.log(header_path);
-	// const pathName = headersList.get("path").slice(4);
+	const path = new URL(headersList.get("x-url") || "").pathname.slice(4);
+	console.log(path);
 
 	let auth;
 	if (session !== null) {
@@ -92,6 +93,7 @@ export default async function Nav({
 			</a>
 		);
 	}
+
 	return (
 		<header className="p-3 mb-auto bg-blur sticky-top">
 			<div className="container">
@@ -133,7 +135,7 @@ export default async function Nav({
 					</a>
 					<a
 						className="nav-link fw-bold py-1 text-dark"
-						href={dict.nav.c_lang_link + header_path}
+						href={`${dict.nav.c_lang_link}${path}`}
 					>
 						{dict.nav.c_lang}
 					</a>
