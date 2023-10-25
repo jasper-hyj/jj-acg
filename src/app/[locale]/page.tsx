@@ -1,7 +1,7 @@
 "use server";
 import dynamic from "next/dynamic";
 import { getDictionary } from "./dictionaries";
-import type { Metadata, ResolvingMetadata } from "next";
+import type { Metadata } from "next";
 const Background = dynamic(() => import("./(components)/background"), {
 	ssr: false,
 });

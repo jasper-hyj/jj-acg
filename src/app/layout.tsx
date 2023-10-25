@@ -1,8 +1,6 @@
 "use server";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Script from "next/script";
-import { SessionProvider } from "next-auth/react";
-import { ReactNode } from "react";
 import NextAuthProvider from "./nextAuthProvider";
 
 export async function generateStaticParams() {
