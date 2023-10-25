@@ -2,6 +2,9 @@
 import dynamic from "next/dynamic";
 import { getDictionary } from "./dictionaries";
 import type { Metadata } from "next";
+import { getPostList } from "./(repository)/postRepository";
+import Link from "next/link";
+import { getAcgnList } from "./(repository)/acgnRepository";
 const Background = dynamic(() => import("./(components)/background"), {
 	ssr: false,
 });
@@ -14,10 +17,11 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function Page({ params }: { params: { locale: string } }) {
 	const dict = await getDictionary(params.locale);
+	const postList = await getPostList(params.locale);
 	return (
 		<main className="p-5 mx-auto bg-blur">
 			<Background />
-			<style>{"body{ height: 100% }"}</style>
+			{/* <style>{"body{ min-height: 100% }"}</style> */}
 			<h1 className="text-light">{dict.home.title}</h1>
 			<p className="lead text-light">{dict.home.content}</p>
 			<p className="lead">
@@ -46,6 +50,43 @@ export default async function Page({ params }: { params: { locale: string } }) {
 					{dict.novel}
 				</a>
 			</p>
+			<div style={{ maxWidth: "1000px" }}>
+				{postList.map((post, index) => (
+					<div key={`${post.acgnId}-${post.id}`}>
+						<Link
+							href={`/${params.locale}/id/${post.acgnId}/post/${post.id}/`}
+							className="link-underline link-underline-opacity-0"
+						>
+							<div className="card mt-3 zoom">
+								<div className="row g-0">
+									<div className="col-md-4">
+										<img
+											src={`/static/acgn/${post.acgnId}/${post.id}-main.jpg`}
+											className="img-fluid rounded-start object-fit-cover h-100 w-100"
+											alt={`${post.id}-main.jpg`}
+										/>
+									</div>
+									<div className="col-md-8">
+										<div className="card-body">
+											<h5 className="card-title">
+												{post.title}
+											</h5>
+											<p className="card-text">
+												{post.descr}
+											</p>
+											<p className="card-text">
+												<small className="text-body-secondary">
+													{post.updateAt}
+												</small>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</Link>
+					</div>
+				))}
+			</div>
 		</main>
 	);
 }

@@ -13,9 +13,13 @@ import { Acgn } from "../(components)/acgn";
 
 // let db: any = null;
 // const prisma = new PrismaClient();
-export async function getAcgnList(locale: string, type: string, amount?: number) {
-
-	const acgnList: Acgn[] = acgnJSON.filter((acgn) => acgn.locale === locale && acgn.type.includes(type));
+export async function getAcgnList(locale: string, type?: string, amount?: number) {
+	var acgnList: Acgn[]
+	if (typeof type !== "undefined") {
+		acgnList = acgnJSON.filter((acgn) => acgn.locale === locale && acgn.type.includes(type));
+	} else {
+		acgnList = acgnJSON.filter((acgn) => acgn.locale === locale);
+	}
 	acgnList.sort((a, b) => {
 		if (a.updateAt > b.updateAt) {
 			return -1;
