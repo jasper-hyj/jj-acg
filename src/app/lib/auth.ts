@@ -28,4 +28,25 @@ export const authOptions: NextAuthOptions = {
         // }),
         // CredentialsProvider({}), // Include a Credentials provider (username/password)
     ],
+    callbacks: {
+        async jwt({token, account}) {
+            if (account) {
+                token.id = account.providerAccountId
+                token.accessToken = account.access_token
+            }
+            return token
+        },
+        // async session({session, token}) {
+        //     // console.log('token', token);
+        //     session.user?.name = token.id;
+        //     session.user.accessToken = token.accessToken;
+        //     return session
+        // },
+        async redirect({url, baseUrl}) {
+            console.log('url', url);
+            console.log('baseUrl', baseUrl);
+
+            return url.startsWith(baseUrl) ? url : baseUrl + '/protected/client';
+        }
+    }
 };

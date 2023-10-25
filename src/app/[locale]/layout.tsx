@@ -3,6 +3,7 @@ import "./global.css";
 import { getDictionary } from "./dictionaries";
 import Nav from "./(components)/nav";
 import Footer from "./(components)/footer";
+import React from "react";
 export default async function RootLayout({
 	children,
 	params,
