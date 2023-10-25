@@ -1,6 +1,5 @@
 "use client";
 import { Acgn } from "./acgn";
-import Image from "next/image";
 
 export default function Card({ acgns }: { acgns: Acgn[] }) {
 	return (
@@ -23,8 +22,6 @@ export default function Card({ acgns }: { acgns: Acgn[] }) {
 									}}
 								>
 									<img
-										width={0}
-										height={0}
 										className="bd-placeholder-img card-img-top d-block object-fit-cover w-100 h-100"
 										role="img"
 										src={acgn.image}

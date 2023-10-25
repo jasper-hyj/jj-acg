@@ -1,6 +1,5 @@
 "use client";
 import { Acgn } from "./acgn";
-import Image from "next/image";
 
 export default function Carousel({ acgns }: { acgns: Acgn[] }) {
 	return (
@@ -34,9 +33,7 @@ export default function Carousel({ acgns }: { acgns: Acgn[] }) {
 						data-bs-interval="5000"
 					>
 						<a href={`/${acgn.locale}/id/${acgn.id}/`}>
-							<Image
-								width={0}
-								height={0}
+							<img
 								sizes="100vw"
 								className="d-block object-fit-cover w-100 h-100"
 								src={acgn.carousel}
