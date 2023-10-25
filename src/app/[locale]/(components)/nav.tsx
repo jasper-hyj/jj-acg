@@ -48,7 +48,7 @@ export default async function Nav({
 						/>
 					</button>
 
-					<ul className="dropdown-menu">
+					<ul className="dropdown-menu mt-3">
 						<li>
 							<a
 								className="dropdown-item"
@@ -57,14 +57,14 @@ export default async function Nav({
 								My Profile
 							</a>
 						</li>
-						<li>
+						{/* <li>
 							<a
 								className="dropdown-item"
 								href={`/${locale}/settings`}
 							>
 								Settings
 							</a>
-						</li>
+						</li> */}
 
 						<li>
 							<hr className="dropdown-divider" />
