@@ -43,8 +43,8 @@ export const authOptions: NextAuthOptions = {
         //     return session
         // },
         async redirect({url, baseUrl}) {
-            console.log('url', url);
-            console.log('baseUrl', baseUrl);
+            // console.log('url', url);
+            // console.log('baseUrl', baseUrl);
 
             return url.startsWith(baseUrl) ? url : baseUrl + '/protected/client';
         }

@@ -6,7 +6,7 @@ export default async function Background() {
 	return (
 		<style>{`
         .bg-image {
-            background-image: url("/static/home/urban-day-view.jpg"
+            background-image: url("https://i.imgur.com/Uii68h0.jpg"
 			)}");
         };
         

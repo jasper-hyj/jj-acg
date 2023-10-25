@@ -1,92 +1,12 @@
-"use server";
+"use client";
 import { Acgn } from "./acgn";
+import Image from "next/image";
 
-export default async function Card({ acgns }: { acgns: Acgn[] }) {
+export default function Card({ acgns }: { acgns: Acgn[] }) {
 	return (
 		<div className="row" data-masonry='{"percentPosition": true }'>
-			{acgns.map((acgn, index) => (
+			{acgns.map((acgn) => (
 				<>
-					{/* {index % 5 != 0 ? (
-						<div
-							className="col-sm-12 col-md-4 col-lg-4 mb-4 px-4"
-							key={acgn.id}
-						>
-							<a
-								href={`/${acgn.locale}/id/${acgn.id}/`}
-								className="link-underline link-underline-opacity-0"
-							>
-								<div className="card zoom">
-									<img
-										style={{
-											width: "100%",
-											height: "auto",
-										}}
-										className="bd-placeholder-img card-img-top"
-										role="img"
-										src={`/static/acgn/${acgn.id}/main.jpg`}
-										alt=""
-									/>
-
-									<div className="card-body">
-										<h5 className="card-title">
-											{acgn.name}
-										</h5>
-										<p className="card-text">
-											{acgn.descr}
-										</p>
-										<p className="card-text">
-											<small className="text-body-secondary">
-												{acgn.updateAt}
-											</small>
-										</p>
-									</div>
-								</div>
-							</a>
-						</div>
-					) : (
-						<div
-							className="col-sm-12 col-md-12 col-lg-12 mb-4 px-4"
-							key={acgn.id}
-						>
-							<a
-								href={`/${acgn.locale}/id/${acgn.id}/`}
-								className="link-underline link-underline-opacity-0"
-							>
-								<div className="card zoom">
-									<div className="row g-0">
-										<div className="col-md-6">
-											<img
-												style={{
-													height: "auto",
-													width: "100%",
-												}}
-												className="bd-placeholder-img card-img-top"
-												role="img"
-												src={`/static/acgn/${acgn.id}/main.jpg`}
-												alt=""
-											/>
-										</div>
-
-										<div className="col-md-6">
-											<div className="card-body">
-												<h5 className="card-title">
-													{acgn.name}
-												</h5>
-												<p className="card-text">
-													{acgn.descr}
-												</p>
-												<p className="card-text">
-													<small className="text-body-secondary">
-														{acgn.updateAt}
-													</small>
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</a>
-						</div>
-					)} */}
 					<div
 						className="col-sm-12 col-md-6 col-lg-4 mb-4 px-4"
 						key={acgn.id}
@@ -103,9 +23,11 @@ export default async function Card({ acgns }: { acgns: Acgn[] }) {
 									}}
 								>
 									<img
+										width={0}
+										height={0}
 										className="bd-placeholder-img card-img-top d-block object-fit-cover w-100 h-100"
 										role="img"
-										src={`/static/acgn/${acgn.id}/main.jpg`}
+										src={acgn.image}
 										alt=""
 									/>
 								</div>

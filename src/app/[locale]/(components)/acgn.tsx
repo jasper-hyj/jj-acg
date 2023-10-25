@@ -6,4 +6,6 @@ export interface Acgn {
 	descr: string;
 	createAt: string;
 	updateAt: string;
+	image: string;
+	carousel: string;
 }
