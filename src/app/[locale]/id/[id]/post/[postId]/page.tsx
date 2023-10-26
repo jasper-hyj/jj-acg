@@ -32,7 +32,7 @@ export default async function Page({
 			.use(remarkHTML)
 			.process(
 				await read(
-					`./src/resources/db/post/${post.acgnId}-${post.locale}-${post.id}.md`
+					`./db/post/${post.acgnId}-${post.locale}-${post.id}.md`
 				)
 			);
 		contentHTML = contentHTML.value;

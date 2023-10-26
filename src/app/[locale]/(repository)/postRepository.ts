@@ -1,7 +1,7 @@
 "use server";
 "use strict";
 
-import postJSON from "@/resources/db/post.json";
+import postJSON from "../../../../db/post.json";
 import {Post} from "@/app/[locale]/(components)/post";
 
 export async function getPostList(locale: string, acgnId?: string) {
