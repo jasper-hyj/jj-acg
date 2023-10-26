@@ -1,311 +1,416 @@
 [
-	{
-		"locale": "en",
-		"type": ["comic", "anime"],
-		"name": "16bit Sensation",
-		"descr": "",
-		"id": "16bit-sensation",
-		"createAt": "2023-10-20 04:26:28",
-		"updateAt": "2023-10-20 04:26:28",
-		"image": "/static/acgn/16bit-sensation/main.jpg",
-		"carousel": "/static/acgn/16bit-sensation/main.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["comic", "anime"],
-		"name": "16bit的感動",
-		"descr": "秋里樂葉是熱愛著美少女和美少女遊戲的插畫家。夢想著成為超人氣插畫家而在美少女遊戲製作公司奮鬥著，但現實卻不順遂。因為在社交遊戲全盛時期的現代，公司轉變了方針。樂葉只能擔任插畫家助手，過著每天繪製路人角色背影的日子。在某一天，因為意外的原因從遊戲店的店長手上拿到了過去的知名美少女遊戲。懷念著美少女遊戲的黃金時代，打開了《同級生》的外盒後，樂葉突然被耀眼的光芒包圍，回過神來她已經穿越時空回到了過去。",
-		"id": "16bit-sensation",
-		"createAt": "2023-10-20 04:26:28",
-		"updateAt": "2023-10-20 04:26:28",
-		"image": "/static/acgn/16bit-sensation/main.jpg",
-		"carousel": "/static/acgn/16bit-sensation/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["comic", "anime"],
-		"name": "Stardust Telepath",
-		"descr": "",
-		"id": "stardust-telepath",
-		"createAt": "2023-10-20 04:29:19",
-		"updateAt": "2023-10-20 04:29:19",
-		"image": "/static/acgn/stardust-telepath/main.jpg",
-		"carousel": "/static/acgn/stardust-telepath/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["comic", "anime"],
-		"name": "星靈感應",
-		"descr": "不擅長與人交流的女高中生小之星海果與自稱外星人的明內幽邂逅，約定以宇宙為目標。然後在遇見副班長寶木遙乃和總是曠課的雷門瞬等人之後開始製作火箭。女高中生們製作火箭以宇宙作為目標的「青春火箭」故事。",
-		"id": "stardust-telepath",
-		"createAt": "2023-10-20 04:29:19",
-		"updateAt": "2023-10-20 04:29:19",
-		"image": "/static/acgn/stardust-telepath/main.jpg",
-		"carousel": "/static/acgn/stardust-telepath/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["comic", "anime"],
-		"name": "Frieren",
-		"descr": "",
-		"id": "frieren",
-		"createAt": "2023-10-20 04:30:50",
-		"updateAt": "2023-10-20 04:30:50",
-		"image": "/static/acgn/frieren/main.jpg",
-		"carousel": "/static/acgn/frieren/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["comic", "anime"],
-		"name": "葬送的芙莉蓮",
-		"descr": "是勇者一行人打倒魔王之後的故事。人類族的勇者欣梅爾、矮人族的戰士艾冉、人類族的僧侶海塔、精靈族的魔法使芙莉蓮，結束長達十年的冒險旅程，作為英雄凱旋歸來，並接受國王表揚。他們剛好遇上50年一遇的流星雨，四人組相約50年後再度相聚觀看難得一見的流星雨。但在芙莉蓮和昔日的冒險夥伴依約再會欣賞流星雨的當夜，夥伴的逝世讓長壽的芙莉蓮感受到生死無常，也讓芙莉蓮開始深入探討生命的意義。",
-		"id": "frieren",
-		"createAt": "2023-10-20 04:30:50",
-		"updateAt": "2023-10-20 04:30:50",
-		"image": "/static/acgn/frieren/main.jpg",
-		"carousel": "/static/acgn/frieren/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["anime"],
-		"name": "Our Rainy Protocol",
-		"descr": "",
-		"id": "our-rainy-protocol",
-		"createAt": "2023-10-20 06:30:50",
-		"updateAt": "2023-10-20 06:30:50",
-		"image": "/static/acgn/our-rainy-protocol/main.jpg",
-		"carousel": "/static/acgn/our-rainy-protocol/carousel.jpg"
-
-	},
-	{
-		"locale": "zh",
-		"type": ["anime"],
-		"name": "我們的雨色協議",
-		"descr": "與母親及妹妹一起生活的高二生──時野谷瞬。因為一場意外事故導致父親離世、妹妹受傷以後，他放棄了原本沉迷的遊戲，進入電競咖啡廳「FOX ONE」工作。與從小一起長大的遊戲夥伴往來的同時，忙於打工及課業的瞬，突然發現「FOX ONE」背負了巨額債務。為了還債，瞬與夥伴立志要在「XAXXERION錦標賽」贏得冠軍，獲得獎金。瞬懷抱著內疚的心情，再次投身於線上遊戲世界，在他面前，出現了曾經與他一同進行遊戲的「爆裂君」。未曾體驗的邂逅與經歷，以及激戰……瞬即使不時感到苦惱，仍然與夥伴們一起攜手向前進。他們的世界透過遊戲開始動了起來。這是少年與家人，以及夥伴們的故事……。",
-		"id": "our-rainy-protocol",
-		"createAt": "2023-10-20 06:30:50",
-		"updateAt": "2023-10-20 06:30:50",
-		"image": "/static/acgn/our-rainy-protocol/main.jpg",
-		"carousel": "/static/acgn/our-rainy-protocol/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["comic", "anime"],
-		"name": "Shy",
-		"descr": "",
-		"id": "shy",
-		"createAt": "2023-10-20 12:30:50",
-		"updateAt": "2023-10-20 12:30:50",
-		"image": "/static/acgn/shy/main.jpg",
-		"carousel": "/static/acgn/shy/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["comic", "anime"],
-		"name": "SHY",
-		"descr": "21世紀中，戰爭在地球上消失無蹤——由於各個國家突然出現擁有超越人類力量，祈求世界和平的「英雄」，世界產生了巨大的變化。為了維繫嶄新的和平局勢，各個國家的英雄們在全世界大展身手，其中負責維持日本和平的是——超怕在人前露臉的靦腆少女英雄「SHY」。雖然她不善於面對眾人、社會的眼光，但還是在苦惱之中努力解救需要幫助的人！",
-		"id": "shy",
-		"createAt": "2023-10-20 12:30:50",
-		"updateAt": "2023-10-20 12:30:50",
-		"image": "/static/acgn/shy/main.jpg",
-		"carousel": "/static/acgn/shy/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["comic", "anime"],
-		"name": "A Returner's Magic Should Be Special",
-		"descr": "",
-		"id": "a-returners-magic-should-be-special",
-		"createAt": "2023-10-20 14:41:00",
-		"updateAt": "2023-10-20 14:41:00",
-		"image": "/static/acgn/a-returners-magic-should-be-special/main.jpg",
-		"carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["comic", "anime"],
-		"name": "重生者的魔法一定要特別",
-		"descr": "異次元空間『影之世界』持續侵蝕世界。人類不得不面對影世界帶來的最可怕的災難『影子迷宮』。「戴基爾·阿曼德」與同伴一同對抗最後一個『影子迷宮』的最終頭目破滅龍（波羅米歐·納波利坦），卻仍迎來世界的滅亡結局。就在戴基爾萬念俱灰的瞬間眼前出現了熟悉的光景……竟是13年前的世界。戴基爾竟回到了他的母校，全帝國第一的魔法學園「赫布里溫學院」的開學典禮上。於是他為了拯救世界，再次集結伙伴們，起身反抗終將到來的滅亡命運！",
-		"id": "a-returners-magic-should-be-special",
-		"createAt": "2023-10-20 14:41:00",
-		"updateAt": "2023-10-20 14:41:00",
-		"image": "/static/acgn/a-returners-magic-should-be-special/main.jpg",
-		"carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["novel", "comic", "anime"],
-		"name": "Tearmoon Empire",
-		"descr": "",
-		"id": "tearmoon-empire",
-		"createAt": "2023-10-22 17:15:00",
-		"updateAt": "2023-10-22 17:15:00",
-		"image": "/static/acgn/tearmoon-empire/main.jpg",
-		"carousel": "/static/acgn/tearmoon-empire/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["novel", "comic", "anime"],
-		"name": "堤亞穆帝國物語～從斷頭台開始，公主重生後的逆轉人生～",
-		"descr": "「腦袋…還在？我變…年輕了？」在分崩離析的大國堤亞穆帝國，被蔑稱為「任性皇女」的20歲皇女「米雅」，因人民革命而被送上斷頭台處刑。原本應該是如此的，醒來時卻發現時空穿越到12歲時的時光！看來這裡是讓我重新來過的世界——放在她枕頭旁的，是遭處刑的她所寫的染血的日記。開始走上第二人生的米雅，決心重建帝國。為了帝國的未來？為了拯救飽受飢荒的人民？為了因內戰殞命的眾多士兵？才不是！我全是為了迴避被送上斷頭台的命運！「這，這種事只要我來就能輕鬆解決！」膽小怕事，卻又超自我中心的廢柴公主，為了自己而展開一場大奮鬥。任性皇女的行動引來意想不到的奇蹟，改變歷史的奇幻故事將要開始！",
-		"id": "tearmoon-empire",
-		"createAt": "2023-10-22 17:15:00",
-		"updateAt": "2023-10-22 17:15:00",
-		"image": "/static/acgn/tearmoon-empire/main.jpg",
-		"carousel": "/static/acgn/tearmoon-empire/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["game"],
-		"name": "Valorant",
-		"descr": "A 5v5 character-based tactical shooter",
-		"id": "valorant",
-		"createAt": "2023-10-22 17:57:00",
-		"updateAt": "2023-10-22 17:57:00",
-		"image": "/static/acgn/valorant/main.jpg",
-		"carousel": "/static/acgn/valorant/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["game"],
-		"name": "特戰英豪",
-		"descr": "以角色為核心的5對5戰略射擊遊戲",
-		"id": "valorant",
-		"createAt": "2023-10-22 17:57:00",
-		"updateAt": "2023-10-22 17:57:00",
-		"image": "/static/acgn/valorant/main.jpg",
-		"carousel": "/static/acgn/valorant/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["anime", "comic"],
-		"name": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
-		"descr": "",
-		"id": "100-nin-no-kanojo",
-		"createAt": "2023-10-22 20:30:00",
-		"updateAt": "2023-10-22 20:30:00",
-		"image": "/static/acgn/100-nin-no-kanojo/main.jpg",
-		"carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["anime", "comic"],
-		"name": "超超超超超喜歡你的100個女朋友",
-		"descr": "愛城戀太郎在中學畢業前已經有向一百位女孩告白，並遭到拒絕的經驗。他在中學畢業那天在神社遇見神明，得知自己如此慘澹的戀愛運，是因為神明不小心將他人生中「真命天女」的數目加多了兩個位，改成了100人。神明也告訴他由於一般人只有一個命中注定的對象，所以若他沒有跟對方實現戀情，對方就會遭遇不幸，然後死亡。戀太郎在升上高中後首日，就遇見他頭兩個「命運之人」——花園羽香里、院田唐音。她們兩人對戀太郎一見鍾情，而戀太郎也決定同時跟兩人交往。隨故事進展，戀太郎也和越來越多女性發展成多邊戀關係。",
-		"id": "100-nin-no-kanojo",
-		"createAt": "2023-10-22 20:30:00",
-		"updateAt": "2023-10-22 20:30:00",
-		"image": "/static/acgn/100-nin-no-kanojo/main.jpg",
-		"carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["game"],
-		"name": "Apex Legends",
-		"descr": "Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts.",
-		"id": "apex-legends",
-		"createAt": "2023-10-22 21:11:00",
-		"updateAt": "2023-10-22 21:11:00",
-		"image": "/static/acgn/apex-legends/main.jpg",
-		"carousel": "/static/acgn/apex-legends/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["game"],
-		"name": "Apex 英雄",
-		"descr": "《Apex 英雄》（英語：Apex Legends），是一個由Respawn Entertainment開發、美商藝電發行的免費大逃殺類多人線上角色扮演第一人稱射擊遊戲，沿用《泰坦降臨系列》的世界觀。",
-		"id": "apex-legends",
-		"createAt": "2023-10-22 21:11:00",
-		"updateAt": "2023-10-22 21:11:00",
-		"image": "/static/acgn/apex-legends/main.jpg",
-		"carousel": "/static/acgn/apex-legends/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["game"],
-		"name": "Overwatch",
-		"descr": "Overwatch (retroactively referred to as Overwatch 1) was a 2016 team-based multiplayer first-person shooter game by Blizzard Entertainment. ",
-		"id": "overwatch",
-		"createAt": "2023-10-22 21:18:00",
-		"updateAt": "2023-10-22 21:18:00",
-		"image": "/static/acgn/overwatch/main.jpg",
-		"carousel": "/static/acgn/overwatch/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["game"],
-		"name": "鬥陣特工",
-		"descr": "《鬥陣特攻》（英語：Overwatch，中國大陸譯作「守望先鋒」），也常簡稱為鬥陣，是一款由暴雪娛樂開發並發行的多人第一人稱射擊遊戲。",
-		"id": "overwatch",
-		"createAt": "2023-10-22 21:18:00",
-		"updateAt": "2023-10-22 21:18:00",
-		"image": "/static/acgn/overwatch/main.jpg",
-		"carousel": "/static/acgn/overwatch/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["game"],
-		"name": "Genshin Impact",
-		"descr": "Genshin Impact is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, d/b/a HoYoverse.",
-		"id": "genshin-impact",
-		"createAt": "2023-10-22 21:26:00",
-		"updateAt": "2023-10-22 21:26:00",
-		"image": "/static/acgn/genshin-impact/main.jpg",
-		"carousel": "/static/acgn/genshin-impact/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["game"],
-		"name": "原神",
-		"descr": "《原神》是由米哈遊開發的動作角色扮演遊戲，於2020年9月登陸Microsoft Windows、Android、iOS、PlayStation 4，2021年4月在PlayStation 5上線。遊戲具有動漫風格的開放世界環境，採用基於抽卡的基本免費及道具收費制。",
-		"id": "genshin-impact",
-		"createAt": "2023-10-22 21:26:00",
-		"updateAt": "2023-10-22 21:26:00",
-		"image": "/static/acgn/genshin-impact/main.jpg",
-		"carousel": "/static/acgn/genshin-impact/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["anime", "novel"],
-		"name": "家裡蹲吸血姬的鬱悶",
-		"descr": "出生於穆爾奈特帝國的貴族吸血鬼少女黛拉可瑪莉，因在學校受欺凌，而導致她在三年前開始過著自我封閉的生活。某一天，科瑪莉得知自己因為父親的關係，而被任命為帝國軍的將軍——七紅天。有志成為小說家的科瑪莉試圖拒絕這個職務，但她被告知，如果她無法履行職責，將會爆炸而死，而且如果她的吸血鬼能力被揭露，她幾乎肯定會被推翻並殺害。儘管可以透過魔核復活，但科瑪莉討厭痛苦，因此在女僕威爾，也就是威爾海茲的支持下，她假裝擁有實力來執行七紅天的工作。然而，虛張聲勢、幸運和周圍的誤解相互疊加，使她被認定為第七部隊的殺戮之主。",
-		"id": "the-vexations-of-a-shut-in-vampire-princess",
-		"createAt": "2023-10-24 21:11:00",
-		"updateAt": "2023-10-24 21:11:00",
-		"image": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/main.jpg",
-		"carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["anime", "novel"],
-		"name": "The Vexations of a Shut-In Vampire Princess",
-		"descr": "",
-		"id": "the-vexations-of-a-shut-in-vampire-princess",
-		"createAt": "2023-10-24 21:11:00",
-		"updateAt": "2023-10-24 21:11:00",
-		"image": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/main.jpg",
-		"carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg"
-	},
-	{
-		"locale": "zh",
-		"type": ["anime", "novel"],
-		"name": "豬肝記得煮熟再吃",
-		"descr": "我是個生吃豬肝後失去意識的不起眼阿宅。本來想說自己轉生到異世界，卻只是變成一隻豬！我全身是泥巴躺在豬圈，拯救我的是像天使一樣溫柔的美少女潔絲。「哼齁！」「那個，你不用勉強說話也沒關係。因為我……明白你想說什麼。」她捨身照顧變成豬的我，據說她是能讀懂人心的「耶穌瑪」這個種族。「糟了，這樣我有如豬一般的慾望不就表露無遺了嗎！！」在梅斯特利亞這個劍與魔法的世界，普通的豬與能讀心的美少女，打情罵俏的奇幻故事即將開始！……嗎？",
-		"id": "heat-the-pig-liver",
-		"createAt": "2023-10-24 21:54:00",
-		"updateAt": "2023-10-24 21:54:00",
-		"image": "/static/acgn/heat-the-pig-liver/main.jpg",
-		"carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg"
-	},
-	{
-		"locale": "en",
-		"type": ["anime", "novel"],
-		"name": "Heat the Pig Liver",
-		"descr": "",
-		"id": "heat-the-pig-liver",
-		"createAt": "2023-10-24 21:54:00",
-		"updateAt": "2023-10-24 21:54:00",
-		"image": "/static/acgn/heat-the-pig-liver/main.jpg",
-		"carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg"
-	}
+  {
+    "locale": "en",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "16bit Sensation",
+    "descr": "",
+    "id": "16bit-sensation",
+    "createAt": "2023-10-20 04:26:28",
+    "updateAt": "2023-10-20 04:26:28",
+    "image": "/static/acgn/16bit-sensation/main.jpg",
+    "carousel": "/static/acgn/16bit-sensation/main.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "16bit的感動",
+    "descr": "秋里樂葉是熱愛著美少女和美少女遊戲的插畫家。夢想著成為超人氣插畫家而在美少女遊戲製作公司奮鬥著，但現實卻不順遂。因為在社交遊戲全盛時期的現代，公司轉變了方針。樂葉只能擔任插畫家助手，過著每天繪製路人角色背影的日子。在某一天，因為意外的原因從遊戲店的店長手上拿到了過去的知名美少女遊戲。懷念著美少女遊戲的黃金時代，打開了《同級生》的外盒後，樂葉突然被耀眼的光芒包圍，回過神來她已經穿越時空回到了過去。",
+    "id": "16bit-sensation",
+    "createAt": "2023-10-20 04:26:28",
+    "updateAt": "2023-10-20 04:26:28",
+    "image": "/static/acgn/16bit-sensation/main.jpg",
+    "carousel": "/static/acgn/16bit-sensation/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "Stardust Telepath",
+    "descr": "",
+    "id": "stardust-telepath",
+    "createAt": "2023-10-20 04:29:19",
+    "updateAt": "2023-10-20 04:29:19",
+    "image": "/static/acgn/stardust-telepath/main.jpg",
+    "carousel": "/static/acgn/stardust-telepath/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "星靈感應",
+    "descr": "不擅長與人交流的女高中生小之星海果與自稱外星人的明內幽邂逅，約定以宇宙為目標。然後在遇見副班長寶木遙乃和總是曠課的雷門瞬等人之後開始製作火箭。女高中生們製作火箭以宇宙作為目標的「青春火箭」故事。",
+    "id": "stardust-telepath",
+    "createAt": "2023-10-20 04:29:19",
+    "updateAt": "2023-10-20 04:29:19",
+    "image": "/static/acgn/stardust-telepath/main.jpg",
+    "carousel": "/static/acgn/stardust-telepath/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "Frieren",
+    "descr": "",
+    "id": "frieren",
+    "createAt": "2023-10-20 04:30:50",
+    "updateAt": "2023-10-20 04:30:50",
+    "image": "/static/acgn/frieren/main.jpg",
+    "carousel": "/static/acgn/frieren/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "葬送的芙莉蓮",
+    "descr": "是勇者一行人打倒魔王之後的故事。人類族的勇者欣梅爾、矮人族的戰士艾冉、人類族的僧侶海塔、精靈族的魔法使芙莉蓮，結束長達十年的冒險旅程，作為英雄凱旋歸來，並接受國王表揚。他們剛好遇上50年一遇的流星雨，四人組相約50年後再度相聚觀看難得一見的流星雨。但在芙莉蓮和昔日的冒險夥伴依約再會欣賞流星雨的當夜，夥伴的逝世讓長壽的芙莉蓮感受到生死無常，也讓芙莉蓮開始深入探討生命的意義。",
+    "id": "frieren",
+    "createAt": "2023-10-20 04:30:50",
+    "updateAt": "2023-10-20 04:30:50",
+    "image": "/static/acgn/frieren/main.jpg",
+    "carousel": "/static/acgn/frieren/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "anime"
+    ],
+    "name": "Our Rainy Protocol",
+    "descr": "",
+    "id": "our-rainy-protocol",
+    "createAt": "2023-10-20 06:30:50",
+    "updateAt": "2023-10-20 06:30:50",
+    "image": "/static/acgn/our-rainy-protocol/main.jpg",
+    "carousel": "/static/acgn/our-rainy-protocol/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "anime"
+    ],
+    "name": "我們的雨色協議",
+    "descr": "與母親及妹妹一起生活的高二生──時野谷瞬。因為一場意外事故導致父親離世、妹妹受傷以後，他放棄了原本沉迷的遊戲，進入電競咖啡廳「FOX ONE」工作。與從小一起長大的遊戲夥伴往來的同時，忙於打工及課業的瞬，突然發現「FOX ONE」背負了巨額債務。為了還債，瞬與夥伴立志要在「XAXXERION錦標賽」贏得冠軍，獲得獎金。瞬懷抱著內疚的心情，再次投身於線上遊戲世界，在他面前，出現了曾經與他一同進行遊戲的「爆裂君」。未曾體驗的邂逅與經歷，以及激戰……瞬即使不時感到苦惱，仍然與夥伴們一起攜手向前進。他們的世界透過遊戲開始動了起來。這是少年與家人，以及夥伴們的故事……。",
+    "id": "our-rainy-protocol",
+    "createAt": "2023-10-20 06:30:50",
+    "updateAt": "2023-10-20 06:30:50",
+    "image": "/static/acgn/our-rainy-protocol/main.jpg",
+    "carousel": "/static/acgn/our-rainy-protocol/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "Shy",
+    "descr": "",
+    "id": "shy",
+    "createAt": "2023-10-20 12:30:50",
+    "updateAt": "2023-10-20 12:30:50",
+    "image": "/static/acgn/shy/main.jpg",
+    "carousel": "/static/acgn/shy/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "SHY",
+    "descr": "21世紀中，戰爭在地球上消失無蹤——由於各個國家突然出現擁有超越人類力量，祈求世界和平的「英雄」，世界產生了巨大的變化。為了維繫嶄新的和平局勢，各個國家的英雄們在全世界大展身手，其中負責維持日本和平的是——超怕在人前露臉的靦腆少女英雄「SHY」。雖然她不善於面對眾人、社會的眼光，但還是在苦惱之中努力解救需要幫助的人！",
+    "id": "shy",
+    "createAt": "2023-10-20 12:30:50",
+    "updateAt": "2023-10-20 12:30:50",
+    "image": "/static/acgn/shy/main.jpg",
+    "carousel": "/static/acgn/shy/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "A Returner's Magic Should Be Special",
+    "descr": "",
+    "id": "a-returners-magic-should-be-special",
+    "createAt": "2023-10-20 14:41:00",
+    "updateAt": "2023-10-20 14:41:00",
+    "image": "/static/acgn/a-returners-magic-should-be-special/main.jpg",
+    "carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "comic",
+      "anime"
+    ],
+    "name": "重生者的魔法一定要特別",
+    "descr": "異次元空間『影之世界』持續侵蝕世界。人類不得不面對影世界帶來的最可怕的災難『影子迷宮』。「戴基爾·阿曼德」與同伴一同對抗最後一個『影子迷宮』的最終頭目破滅龍（波羅米歐·納波利坦），卻仍迎來世界的滅亡結局。就在戴基爾萬念俱灰的瞬間眼前出現了熟悉的光景……竟是13年前的世界。戴基爾竟回到了他的母校，全帝國第一的魔法學園「赫布里溫學院」的開學典禮上。於是他為了拯救世界，再次集結伙伴們，起身反抗終將到來的滅亡命運！",
+    "id": "a-returners-magic-should-be-special",
+    "createAt": "2023-10-20 14:41:00",
+    "updateAt": "2023-10-20 14:41:00",
+    "image": "/static/acgn/a-returners-magic-should-be-special/main.jpg",
+    "carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "novel",
+      "comic",
+      "anime"
+    ],
+    "name": "Tearmoon Empire",
+    "descr": "",
+    "id": "tearmoon-empire",
+    "createAt": "2023-10-22 17:15:00",
+    "updateAt": "2023-10-22 17:15:00",
+    "image": "/static/acgn/tearmoon-empire/main.jpg",
+    "carousel": "/static/acgn/tearmoon-empire/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "novel",
+      "comic",
+      "anime"
+    ],
+    "name": "堤亞穆帝國物語～從斷頭台開始，公主重生後的逆轉人生～",
+    "descr": "「腦袋…還在？我變…年輕了？」在分崩離析的大國堤亞穆帝國，被蔑稱為「任性皇女」的20歲皇女「米雅」，因人民革命而被送上斷頭台處刑。原本應該是如此的，醒來時卻發現時空穿越到12歲時的時光！看來這裡是讓我重新來過的世界——放在她枕頭旁的，是遭處刑的她所寫的染血的日記。開始走上第二人生的米雅，決心重建帝國。為了帝國的未來？為了拯救飽受飢荒的人民？為了因內戰殞命的眾多士兵？才不是！我全是為了迴避被送上斷頭台的命運！「這，這種事只要我來就能輕鬆解決！」膽小怕事，卻又超自我中心的廢柴公主，為了自己而展開一場大奮鬥。任性皇女的行動引來意想不到的奇蹟，改變歷史的奇幻故事將要開始！",
+    "id": "tearmoon-empire",
+    "createAt": "2023-10-22 17:15:00",
+    "updateAt": "2023-10-22 17:15:00",
+    "image": "/static/acgn/tearmoon-empire/main.jpg",
+    "carousel": "/static/acgn/tearmoon-empire/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "game"
+    ],
+    "name": "Valorant",
+    "descr": "A 5v5 character-based tactical shooter",
+    "id": "valorant",
+    "createAt": "2023-10-22 17:57:00",
+    "updateAt": "2023-10-22 17:57:00",
+    "image": "/static/acgn/valorant/main.jpg",
+    "carousel": "/static/acgn/valorant/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "game"
+    ],
+    "name": "特戰英豪",
+    "descr": "以角色為核心的5對5戰略射擊遊戲",
+    "id": "valorant",
+    "createAt": "2023-10-22 17:57:00",
+    "updateAt": "2023-10-22 17:57:00",
+    "image": "/static/acgn/valorant/main.jpg",
+    "carousel": "/static/acgn/valorant/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "anime",
+      "comic"
+    ],
+    "name": "The 100 Girlfriends Who Really, Really, Really, Really, Really Love You",
+    "descr": "",
+    "id": "100-nin-no-kanojo",
+    "createAt": "2023-10-22 20:30:00",
+    "updateAt": "2023-10-22 20:30:00",
+    "image": "/static/acgn/100-nin-no-kanojo/main.jpg",
+    "carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "anime",
+      "comic"
+    ],
+    "name": "超超超超超喜歡你的100個女朋友",
+    "descr": "愛城戀太郎在中學畢業前已經有向一百位女孩告白，並遭到拒絕的經驗。他在中學畢業那天在神社遇見神明，得知自己如此慘澹的戀愛運，是因為神明不小心將他人生中「真命天女」的數目加多了兩個位，改成了100人。神明也告訴他由於一般人只有一個命中注定的對象，所以若他沒有跟對方實現戀情，對方就會遭遇不幸，然後死亡。戀太郎在升上高中後首日，就遇見他頭兩個「命運之人」——花園羽香里、院田唐音。她們兩人對戀太郎一見鍾情，而戀太郎也決定同時跟兩人交往。隨故事進展，戀太郎也和越來越多女性發展成多邊戀關係。",
+    "id": "100-nin-no-kanojo",
+    "createAt": "2023-10-22 20:30:00",
+    "updateAt": "2023-10-22 20:30:00",
+    "image": "/static/acgn/100-nin-no-kanojo/main.jpg",
+    "carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "game"
+    ],
+    "name": "Apex Legends",
+    "descr": "Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts.",
+    "id": "apex-legends",
+    "createAt": "2023-10-22 21:11:00",
+    "updateAt": "2023-10-22 21:11:00",
+    "image": "/static/acgn/apex-legends/main.jpg",
+    "carousel": "/static/acgn/apex-legends/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "game"
+    ],
+    "name": "Apex 英雄",
+    "descr": "《Apex 英雄》（英語：Apex Legends），是一個由Respawn Entertainment開發、美商藝電發行的免費大逃殺類多人線上角色扮演第一人稱射擊遊戲，沿用《泰坦降臨系列》的世界觀。",
+    "id": "apex-legends",
+    "createAt": "2023-10-22 21:11:00",
+    "updateAt": "2023-10-22 21:11:00",
+    "image": "/static/acgn/apex-legends/main.jpg",
+    "carousel": "/static/acgn/apex-legends/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "game"
+    ],
+    "name": "Overwatch",
+    "descr": "Overwatch (retroactively referred to as Overwatch 1) was a 2016 team-based multiplayer first-person shooter game by Blizzard Entertainment. ",
+    "id": "overwatch",
+    "createAt": "2023-10-22 21:18:00",
+    "updateAt": "2023-10-22 21:18:00",
+    "image": "/static/acgn/overwatch/main.jpg",
+    "carousel": "/static/acgn/overwatch/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "game"
+    ],
+    "name": "鬥陣特工",
+    "descr": "《鬥陣特攻》（英語：Overwatch，中國大陸譯作「守望先鋒」），也常簡稱為鬥陣，是一款由暴雪娛樂開發並發行的多人第一人稱射擊遊戲。",
+    "id": "overwatch",
+    "createAt": "2023-10-22 21:18:00",
+    "updateAt": "2023-10-22 21:18:00",
+    "image": "/static/acgn/overwatch/main.jpg",
+    "carousel": "/static/acgn/overwatch/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "game"
+    ],
+    "name": "Genshin Impact",
+    "descr": "Genshin Impact is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, d/b/a HoYoverse.",
+    "id": "genshin-impact",
+    "createAt": "2023-10-22 21:26:00",
+    "updateAt": "2023-10-22 21:26:00",
+    "image": "/static/acgn/genshin-impact/main.jpg",
+    "carousel": "/static/acgn/genshin-impact/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "game"
+    ],
+    "name": "原神",
+    "descr": "《原神》是由米哈遊開發的動作角色扮演遊戲，於2020年9月登陸Microsoft Windows、Android、iOS、PlayStation 4，2021年4月在PlayStation 5上線。遊戲具有動漫風格的開放世界環境，採用基於抽卡的基本免費及道具收費制。",
+    "id": "genshin-impact",
+    "createAt": "2023-10-22 21:26:00",
+    "updateAt": "2023-10-22 21:26:00",
+    "image": "/static/acgn/genshin-impact/main.jpg",
+    "carousel": "/static/acgn/genshin-impact/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "anime",
+      "novel"
+    ],
+    "name": "家裡蹲吸血姬的鬱悶",
+    "descr": "出生於穆爾奈特帝國的貴族吸血鬼少女黛拉可瑪莉，因在學校受欺凌，而導致她在三年前開始過著自我封閉的生活。某一天，科瑪莉得知自己因為父親的關係，而被任命為帝國軍的將軍——七紅天。有志成為小說家的科瑪莉試圖拒絕這個職務，但她被告知，如果她無法履行職責，將會爆炸而死，而且如果她的吸血鬼能力被揭露，她幾乎肯定會被推翻並殺害。儘管可以透過魔核復活，但科瑪莉討厭痛苦，因此在女僕威爾，也就是威爾海茲的支持下，她假裝擁有實力來執行七紅天的工作。然而，虛張聲勢、幸運和周圍的誤解相互疊加，使她被認定為第七部隊的殺戮之主。",
+    "id": "the-vexations-of-a-shut-in-vampire-princess",
+    "createAt": "2023-10-24 21:11:00",
+    "updateAt": "2023-10-24 21:11:00",
+    "image": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/main.jpg",
+    "carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "anime",
+      "novel"
+    ],
+    "name": "The Vexations of a Shut-In Vampire Princess",
+    "descr": "",
+    "id": "the-vexations-of-a-shut-in-vampire-princess",
+    "createAt": "2023-10-24 21:11:00",
+    "updateAt": "2023-10-24 21:11:00",
+    "image": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/main.jpg",
+    "carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "anime",
+      "novel"
+    ],
+    "name": "豬肝記得煮熟再吃",
+    "descr": "我是個生吃豬肝後失去意識的不起眼阿宅。本來想說自己轉生到異世界，卻只是變成一隻豬！我全身是泥巴躺在豬圈，拯救我的是像天使一樣溫柔的美少女潔絲。「哼齁！」「那個，你不用勉強說話也沒關係。因為我……明白你想說什麼。」她捨身照顧變成豬的我，據說她是能讀懂人心的「耶穌瑪」這個種族。「糟了，這樣我有如豬一般的慾望不就表露無遺了嗎！！」在梅斯特利亞這個劍與魔法的世界，普通的豬與能讀心的美少女，打情罵俏的奇幻故事即將開始！……嗎？",
+    "id": "heat-the-pig-liver",
+    "createAt": "2023-10-24 21:54:00",
+    "updateAt": "2023-10-24 21:54:00",
+    "image": "/static/acgn/heat-the-pig-liver/main.jpg",
+    "carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "anime",
+      "novel"
+    ],
+    "name": "Heat the Pig Liver",
+    "descr": "",
+    "id": "heat-the-pig-liver",
+    "createAt": "2023-10-24 21:54:00",
+    "updateAt": "2023-10-24 21:54:00",
+    "image": "/static/acgn/heat-the-pig-liver/main.jpg",
+    "carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg"
+  },
+  {
+    "locale": "zh",
+    "type": [
+      "anime",
+      "comic",
+      "novel"
+    ],
+    "name": "藥師少女的獨語",
+    "descr": "貓貓是擁有精明推理能力和豐富藥理知識的少女，原本在花街出身並擔任藥師，但由於外出採藥遭人販子綁架被賣至後宮擔任下級的女官（宮女），意外被管理後宮的宦官壬氏發現其才能。憑藉自身的學識和技能，貓貓在勾心鬥角的宮廷中排憂解難、逐漸建立人脈對宮廷產生影響力，也發掘出宮廷裡不為人知的一面。",
+    "id": "the-apothecary-diaries",
+    "createAt": "2023-10-25 23:40:00",
+    "updateAt": "2023-10-25 23:40:00",
+    "image": "/static/acgn/the-apothecary-diaries/main.jpg",
+    "carousel": "/static/acgn/the-apothecary-diaries/carousel.jpg"
+  },
+  {
+    "locale": "en",
+    "type": [
+      "anime",
+      "comic",
+      "novel"
+    ],
+    "name": "The Apothecary Diaries",
+    "descr": "",
+    "id": "the-apothecary-diaries",
+    "createAt": "2023-10-25 23:40:00",
+    "updateAt": "2023-10-25 23:40:00",
+    "image": "/static/acgn/the-apothecary-diaries/main.jpg",
+    "carousel": "/static/acgn/the-apothecary-diaries/carousel.jpg"
+  }
 ]
