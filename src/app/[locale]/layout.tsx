@@ -1,5 +1,5 @@
 "use server";
-import "./global.css";
+import "../global.css";
 import { getDictionary } from "./dictionaries";
 import Nav from "./(components)/nav";
 import Footer from "./(components)/footer";

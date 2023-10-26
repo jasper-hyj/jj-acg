@@ -50,7 +50,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 					{dict.novel}
 				</a>
 			</p>
-			<div style={{ maxWidth: "1000px" }}>
+			<div style={{ maxWidth: "850px" }}>
 				{postList.map((post, index) => (
 					<div key={`${post.acgnId}-${post.id}`}>
 						<Link
@@ -61,7 +61,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 								<div className="row g-0">
 									<div className="col-md-4">
 										<img
-											src={`/static/acgn/${post.acgnId}/${post.id}-main.jpg`}
+											src={`${post.image}`}
 											className="img-fluid rounded-start object-fit-cover h-100 w-100"
 											alt={`${post.id}-main.jpg`}
 										/>

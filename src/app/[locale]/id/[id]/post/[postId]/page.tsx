@@ -27,6 +27,7 @@ export default async function Page({
 	const post = await getPost(params.locale, params.id, params.postId);
 	var contentHTML;
 	try {
+		// @ts-ignore
 		contentHTML = await remark()
 			.use(remarkHTML)
 			.process(
@@ -59,12 +60,13 @@ export default async function Page({
 				</p>
 			</div>
 			<img
-				src={`/static/acgn/${post.acgnId}/${post.id}-main.jpg`}
+				src={`${post.image}`}
 				alt=""
 				style={{ width: "100%" }}
 			/>
 			<div
 				className="mt-4"
+				id="post-html"
 				dangerouslySetInnerHTML={{ __html: contentHTML }}
 			></div>
 		</div>

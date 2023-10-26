@@ -1,4 +1,4 @@
-interface Post {
+export interface Post {
 	acgnId: string;
 	id: string;
 	locale: string;
@@ -7,4 +7,5 @@ interface Post {
 	content: string;
 	createAt: string;
 	updateAt: string;
+	image: string;
 }
