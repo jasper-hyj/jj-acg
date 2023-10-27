@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "bfdc9b669253ef9a",
+        "id": "0067720cbe86e3f6",
         "type": "tabs",
         "children": [
           {
-            "id": "26308ff4b002e0b4",
+            "id": "9270e6f1f4057af3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-apothecary-diaries-zh-1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-apothecary-diaries-zh-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-apothecary-diaries-zh-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "the-apothecary-diaries-zh-1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +140,8 @@
   },
   "active": "40dba70296cd2dcd",
   "lastOpenFiles": [
-    "a-returners-magic-should-be-special-zh-1.md",
     "the-apothecary-diaries-zh-1.md",
+    "a-returners-magic-should-be-special-zh-1.md",
     "valorant-zh-1.md"
   ]
 }

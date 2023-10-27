@@ -45,7 +45,7 @@ export default async function Page({
 	}
 	return (
 		<div
-			className="text-start container mx-auto px-5"
+			className="text-start container mx-auto"
 			style={{ maxWidth: "1000px" }}
 		>
 			<div>
