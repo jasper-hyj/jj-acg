@@ -8,6 +8,15 @@ import { getAcgn } from "@/app/[locale]/(repository)/acgnRepository";
 import Link from "next/link";
 import { promises as fs } from 'fs';
 import { readFileSync } from 'fs';
+import rehypeDocument from 'rehype-document'
+import rehypeFormat from 'rehype-format'
+import rehypeRaw from 'rehype-raw'
+import rehypeStringify from 'rehype-stringify'
+import remarkParse from 'remark-parse'
+import remarkRehype from 'remark-rehype'
+import {read} from 'to-vfile'
+import {unified} from 'unified'
+import remarkGfm from "remark-gfm";
 
 export async function generateMetadata({
 	params,
@@ -28,18 +37,18 @@ export default async function Page({
 	const post = await getPost(params.locale, params.id, params.postId);
 	var contentHTML;
 	try {
-		// @ts-ignore
-		contentHTML = await remark()
-			.use(remarkHTML)
-			.process(
-				readFileSync(`${process.cwd()}/public/static/post/${post.acgnId}-${post.locale}-${post.id}.md`, 'utf8')
-			);
-		contentHTML = contentHTML.value;
+	contentHTML =
+		await unified()
+			.use(remarkParse, {fragment: true})
+			.use(remarkRehype, {allowDangerousHtml: true})
+			.use(rehypeRaw)
+			.use(rehypeFormat)
+			.use(rehypeStringify)
+			.process(await read(`${process.cwd()}/public/static/post/${post.acgnId}-${post.locale}-${post.id}.md`, 'utf8'))
 	} catch (e) {
 		console.log(`Check path: ${process.cwd()}`);
 		contentHTML = "";
 	}
-	// contentHTML = await remark().use(remarkHTML).process(post.content);
 	return (
 		<div
 			className="text-start container mx-auto px-5"
@@ -67,7 +76,7 @@ export default async function Page({
 			<div
 				className="mt-4"
 				id="post-html"
-				dangerouslySetInnerHTML={{ __html: contentHTML }}
+				dangerouslySetInnerHTML={{ __html: String(contentHTML) }}
 			></div>
 		</div>
 	);

@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "font"
   ],
-  "textFontFamily": "Microsoft JhengHei"
+  "textFontFamily": "Microsoft JhengHei",
+  "baseFontSize": 17
 }

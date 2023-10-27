@@ -40,4 +40,7 @@
 在玉葉妃參照貓貓秘密放置在她窗邊的建議後，公主成功康復了。聽到這件事的王氏，馬上聯想起了那個經過她身旁念念有詞的宮女。成功被勾起興趣的王氏，便找到了嘗試裝作不知情的貓貓。也在從此之後，貓貓便被捲入無止盡的事件與麻煩中。
 
 
+最後在附上動畫版的主題曲: **緑黃色社會「花になって」**
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/z9JZB08qy44?si=lMcEHrPRhN9Q51BW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
