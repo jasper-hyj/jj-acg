@@ -7,6 +7,7 @@ import remarkHTML from "remark-html";
 import { getAcgn } from "@/app/[locale]/(repository)/acgnRepository";
 import Link from "next/link";
 import { promises as fs } from 'fs';
+import { readFileSync } from 'fs';
 
 export async function generateMetadata({
 	params,
@@ -31,10 +32,11 @@ export default async function Page({
 		contentHTML = await remark()
 			.use(remarkHTML)
 			.process(
-				await fs.readFile(`${process.cwd()}/static/post/${post.acgnId}-${post.locale}-${post.id}.md`)
+				readFileSync(`${process.cwd()}/public/static/post/${post.acgnId}-${post.locale}-${post.id}.md`, 'utf8')
 			);
 		contentHTML = contentHTML.value;
 	} catch (e) {
+		console.log(`Check path: ${process.cwd()}`);
 		contentHTML = "";
 	}
 	// contentHTML = await remark().use(remarkHTML).process(post.content);
