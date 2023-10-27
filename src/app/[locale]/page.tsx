@@ -4,7 +4,6 @@ import { getDictionary } from "./dictionaries";
 import type { Metadata } from "next";
 import { getPostList } from "./(repository)/postRepository";
 import Link from "next/link";
-import { getAcgnList } from "./(repository)/acgnRepository";
 const Background = dynamic(() => import("./(components)/background"), {
 	ssr: false,
 });
@@ -51,7 +50,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 				</a>
 			</p>
 			<div style={{ maxWidth: "850px" }}>
-				{postList.map((post, index) => (
+				{postList.map((post) => (
 					<div key={`${post.acgnId}-${post.id}`}>
 						<Link
 							href={`/${params.locale}/id/${post.acgnId}/post/${post.id}/`}

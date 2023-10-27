@@ -20,7 +20,6 @@ export default async function Nav({
 	// });
 	const headersList = headers();
 	const path = new URL(headersList.get("x-url") || "").pathname.slice(4);
-	console.log(path);
 
 	let auth;
 	if (session !== null) {

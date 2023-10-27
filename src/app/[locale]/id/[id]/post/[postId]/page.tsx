@@ -7,6 +7,7 @@ import { remark } from "remark";
 import remarkHTML from "remark-html";
 import { getAcgn } from "@/app/[locale]/(repository)/acgnRepository";
 import Link from "next/link";
+import { promises as fs } from 'fs';
 
 export async function generateMetadata({
 	params,
@@ -31,9 +32,7 @@ export default async function Page({
 		contentHTML = await remark()
 			.use(remarkHTML)
 			.process(
-				await read(
-					`./db/post/${post.acgnId}-${post.locale}-${post.id}.md`
-				)
+				await fs.readFile(`${process.cwd()}/src/resources/db/post/${post.acgnId}-${post.locale}-${post.id}.md`)
 			);
 		contentHTML = contentHTML.value;
 	} catch (e) {
