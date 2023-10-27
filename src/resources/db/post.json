@@ -25,11 +25,22 @@
 		"acgnId": "the-apothecary-diaries",
 		"id": "1",
 		"locale": "zh",
-		"title": "藥師少女的獨語 - 小說第一卷感想",
-		"descr": "恭喜動畫正式開播，自2011年10月連載至今的超經典輕小說，故事到底在說些什麼? 從故事中淺談古代中國社會",
+		"title": "藥師少女的獨語 - 小說第一卷",
+		"descr": "恭喜動畫正式開播，自2011年10月連載至今的超經典輕小說，故事到底在說些什麼?",
 		"content": "",
-		"createAt": "2023-10-23 16:46:00",
-		"updateAt": "2023-10-23 16:46:00",
+		"createAt": "2023-10-25 23:40:00",
+		"updateAt": "2023-10-25 23:40:00",
 		"image": "/static/acgn/the-apothecary-diaries/main.jpg"
+	},
+	{
+		"acgnId": "the-apothecary-diaries",
+		"id": "2",
+		"locale": "zh",
+		"title": "藥師少女的獨語 - 動畫一二集觀後感",
+		"descr": "動畫版開播至今也過了一周了，動畫在呈現故事上有沒有什麼值得注意的細節?",
+		"content": "",
+		"createAt": "2023-10-26 21:12:00",
+		"updateAt": "2023-10-26 21:12:00",
+		"image": "/static/acgn/the-apothecary-diaries/2-main.jpg"
 	}
 ]

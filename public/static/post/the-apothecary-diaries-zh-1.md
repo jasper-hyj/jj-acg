@@ -12,7 +12,7 @@
 廣獲讚譽的酣暢淋漓推理之作，眾所期盼的第一集終於出版。
 以中世東方為舞臺，「試毒」少女將一一解決宮中發生的懸疑案件！
 
-
+---
 ### 故事內容
 故事當中，女主貓貓，便是那藥師少女。從故事一開始，作者開始介紹起了貓貓。飛來橫禍便是最佳形容貓貓的處境的方式。當她在森林採藥時，被綁匪綁去賣給宦官作為后宮內的宮女。
 
@@ -39,8 +39,7 @@
 **理所當然被抓包的貓貓**
 在玉葉妃參照貓貓秘密放置在她窗邊的建議後，公主成功康復了。聽到這件事的王氏，馬上聯想起了那個經過她身旁念念有詞的宮女。成功被勾起興趣的王氏，便找到了嘗試裝作不知情的貓貓。也在從此之後，貓貓便被捲入無止盡的事件與麻煩中。
 
-
+---
 最後在附上動畫版的主題曲: **緑黃色社會「花になって」**
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/z9JZB08qy44?si=lMcEHrPRhN9Q51BW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
