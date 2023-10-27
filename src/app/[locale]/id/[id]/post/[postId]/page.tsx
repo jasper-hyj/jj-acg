@@ -2,7 +2,6 @@
 
 import { getPost } from "@/app/[locale]/(repository)/postRepository";
 import { Metadata } from "next";
-import { read } from "to-vfile";
 import { remark } from "remark";
 import remarkHTML from "remark-html";
 import { getAcgn } from "@/app/[locale]/(repository)/acgnRepository";
@@ -32,7 +31,7 @@ export default async function Page({
 		contentHTML = await remark()
 			.use(remarkHTML)
 			.process(
-				await fs.readFile(`${process.cwd()}/src/resources/db/post/${post.acgnId}-${post.locale}-${post.id}.md`)
+				await fs.readFile(`${process.cwd()}/static/post/${post.acgnId}-${post.locale}-${post.id}.md`)
 			);
 		contentHTML = contentHTML.value;
 	} catch (e) {
