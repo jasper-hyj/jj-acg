@@ -18,7 +18,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 	const dict = await getDictionary(params.locale);
 	const postList = await getPostList(params.locale);
 	return (
-		<main className="p-5 mx-auto">
+		<main className="py-4 px-3 mx-auto">
 			<Background imageURL={"/static/home/urban-day-view.jpg"}/>
 			{/* <style>{"body{ min-height: 100% }"}</style> */}
 			<h1 className="text-light">{dict.home.title}</h1>
