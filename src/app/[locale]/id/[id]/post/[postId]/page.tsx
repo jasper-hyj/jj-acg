@@ -2,21 +2,15 @@
 
 import { getPost } from "@/app/[locale]/(repository)/postRepository";
 import { Metadata } from "next";
-import { remark } from "remark";
-import remarkHTML from "remark-html";
 import { getAcgn } from "@/app/[locale]/(repository)/acgnRepository";
 import Link from "next/link";
-import { promises as fs } from 'fs';
 import { readFileSync } from 'fs';
-import rehypeDocument from 'rehype-document'
 import rehypeFormat from 'rehype-format'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
 import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
-import {read} from 'to-vfile'
 import {unified} from 'unified'
-import remarkGfm from "remark-gfm";
 
 export async function generateMetadata({
 	params,
@@ -44,7 +38,7 @@ export default async function Page({
 			.use(rehypeRaw)
 			.use(rehypeFormat)
 			.use(rehypeStringify)
-			.process(await read(`${process.cwd()}/public/static/post/${post.acgnId}-${post.locale}-${post.id}.md`, 'utf8'))
+			.process(readFileSync(`${process.cwd()}/public/static/post/${post.acgnId}-${post.locale}-${post.id}.md`, 'utf8'))
 	} catch (e) {
 		console.log(`Check path: ${process.cwd()}`);
 		contentHTML = "";
@@ -70,7 +64,7 @@ export default async function Page({
 			</div>
 			<img
 				src={`${post.image}`}
-				alt=""
+				alt={`${post.id}-main.jpg`}
 				style={{ width: "100%" }}
 			/>
 			<div
