@@ -78,3 +78,14 @@ header {
     text-align: center;
     margin: 15px auto;
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-none::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-none {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

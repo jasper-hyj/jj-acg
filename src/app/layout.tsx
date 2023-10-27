@@ -22,7 +22,7 @@ export default async function RootLayout({
 			data-scroll="0"
 		>
 			{/* body: with filled container */}
-			<body className="w-100" style={{ minHeight: "100%" }}>
+			<body className="w-100" style={{ height: "100%" }}>
 				<NextAuthProvider>
 					{children}
 

@@ -18,7 +18,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 	const dict = await getDictionary(params.locale);
 	const postList = await getPostList(params.locale);
 	return (
-		<main className="p-5 mx-auto bg-blur">
+		<main className="p-5 mx-auto">
 			<Background imageURL={"/static/home/urban-day-view.jpg"}/>
 			{/* <style>{"body{ min-height: 100% }"}</style> */}
 			<h1 className="text-light">{dict.home.title}</h1>
@@ -49,7 +49,10 @@ export default async function Page({ params }: { params: { locale: string } }) {
 					{dict.novel}
 				</a>
 			</p>
-			<div style={{ maxWidth: "850px" }}>
+			<div
+				// className={"scroll-none"}
+				 style={{ maxWidth: "850px"}} //, overflow: "auto", padding: "15px", height: "500px"}}
+			>
 				{postList.map((post) => (
 					<div key={`${post.acgnId}-${post.id}`}>
 						<Link
