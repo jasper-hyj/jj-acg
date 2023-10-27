@@ -2,15 +2,13 @@ import { match } from "@formatjs/intl-localematcher";
 import Negotiator from 'negotiator';
 import { NextRequest, NextResponse } from "next/server";
 
-let headers = { "accept-language": "en-US,en;q=0.5" };
+let headers = { "accept-language": "zh-TW,zh,en-US,en;q=0.5" };
 let languages = new Negotiator({ headers }).languages();
-let locales = ["en", "zh"];
+let locales = ["zh", "en"];
 let defaultLocale = "zh";
 
-match(languages, locales, defaultLocale); // -> 'en-US'
-
 // Get the preferred locale, similar to the above or using a library
-function getLocale(request: NextRequest) {
+function getLocale() {
 	return match(languages, locales, defaultLocale);
 }
 
@@ -39,7 +37,7 @@ export function middleware(request: NextRequest) {
 	}
 
 	// Redirect if there is no locale
-	const locale = getLocale(request);
+	const locale = getLocale();
 	// e.g. incoming request is /products
 	// The new URL is now /en-US/products
 	return NextResponse.redirect(new URL(`/${locale}${pathname}`, request.url))
