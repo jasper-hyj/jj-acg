@@ -57,6 +57,7 @@ export default async function Page({
                 maxWidth: "1000px",
                 background: "rgb(255,255,255,0.8)",
                 marginTop: "20px",
+                marginBottom: "20px",
                 borderRadius: "15px",
             }}
         >
