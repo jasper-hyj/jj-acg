@@ -1,15 +1,11 @@
 "use server";
-import fs, { readdirSync } from "fs";
-import path from "path";
 
-export default async function Background() {
+export default async function Background({imageURL}: {imageURL: string}) {
 	return (
 		<style>{`
         .bg-image {
-            background-image: url("/static/home/urban-day-view.jpg"
-			)}");
+            background-image: url(${imageURL});
         };
-        
         `}</style>
 	);
 }
