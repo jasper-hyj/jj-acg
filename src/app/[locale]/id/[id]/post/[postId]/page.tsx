@@ -66,7 +66,7 @@ export default async function Page({
                     href={`/${acgn.locale}/id/${acgn.id}/`}
                     className="link-underline link-underline-opacity-0"
                 >
-                    <p className="ps-1 mt-4 mb-2 text-body-secondary">
+                    <p className="ps-1 mt-3 mb-3 text-body-secondary">
                         {`> ${acgn.name}`}
                     </p>
                 </Link>
@@ -85,7 +85,16 @@ export default async function Page({
                 className="mt-4"
                 id="post-html"
                 dangerouslySetInnerHTML={{__html: String(contentHTML)}}
-            ></div>
+            >
+            </div>
+            <Link
+                href={`/${acgn.locale}/id/${acgn.id}/`}
+                className="link-underline link-underline-opacity-0"
+            >
+                <p className="ps-1 mt-3 mb-3 text-body-secondary">
+                    {`> ${acgn.name}`}
+                </p>
+            </Link>
         </div>
     );
 }

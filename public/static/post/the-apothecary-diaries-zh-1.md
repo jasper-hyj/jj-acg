@@ -42,4 +42,4 @@
 ---
 最後在附上動畫版的主題曲: **緑黃色社會「花になって」**
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/z9JZB08qy44?si=lMcEHrPRhN9Q51BW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/z9JZB08qy44?si=lMcEHrPRhN9Q51BW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

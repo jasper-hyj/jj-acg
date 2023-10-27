@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0067720cbe86e3f6",
+        "id": "29f090f6edb30e17",
         "type": "tabs",
         "children": [
           {
-            "id": "dfe5feae562e8030",
+            "id": "f4580508a5f3171f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "the-apothecary-diaries-zh-2.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-apothecary-diaries-zh-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-apothecary-diaries-zh-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "the-apothecary-diaries-zh-2.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40dba70296cd2dcd",
+  "active": "f4580508a5f3171f",
   "lastOpenFiles": [
-    "the-apothecary-diaries-zh-1.md",
     "the-apothecary-diaries-zh-2.md",
+    "the-apothecary-diaries-zh-1.md",
+    "static/acgn/the-apothecary-diaries/2-screenshot.jpg.md",
+    "static/acgn/the-apothecary-diaries",
+    "static/acgn",
+    "static",
     "valorant-zh-1.md",
     "a-returners-magic-should-be-special-zh-1.md"
   ]
