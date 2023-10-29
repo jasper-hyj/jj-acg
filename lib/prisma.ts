@@ -1,5 +1,5 @@
 declare global {
-    var prisma: PrismaClient; // This must be a `var` and not a `let / const`
+    let prisma: PrismaClient; // This must be a `var` and not a `let / const`
   }
   
   import { PrismaClient } from "@prisma/client";

@@ -12,17 +12,21 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
 import Background from "@/app/[locale]/(components)/background";
-import { redirect } from "next/navigation";
+import {redirect} from "next/navigation";
 
 export async function generateMetadata({
                                            params,
                                        }: {
     params: {
-        locale: string
+        locale: string;
+        id: string;
+        postId: string
     };
 }): Promise<Metadata> {
+    const acgn = await getAcgn(params.locale, params.id);
+    const post = await getPost(params.locale, params.id, params.postId);
     return {
-        title: `JJ ACG`,
+        title: `${post.title} - ${acgn.name} - JJ ACG`,
     };
 }
 
@@ -38,7 +42,7 @@ export default async function Page({
     const acgn = await getAcgn(params.locale, params.id);
     const post = await getPost(params.locale, params.id, params.postId);
     if (typeof acgn === `undefined` || typeof post === `undefined`) redirect(`/${params.locale}/`);
-    var contentHTML;
+    let contentHTML;
 
     try {
         contentHTML =

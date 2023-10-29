@@ -5,7 +5,7 @@ import postJSON from "@/resources/db/post.json";
 import {Post} from "@/app/[locale]/(components)/post";
 
 export async function getPostList(locale: string, acgnId?: string) {
-    var postList: Post[];
+    let postList: Post[];
     if (typeof acgnId !== 'undefined') {
         postList = postJSON.filter((post) => post.locale == locale && post.acgnId == acgnId);
     } else {
@@ -17,7 +17,7 @@ export async function getPostList(locale: string, acgnId?: string) {
             return -1;
         } else {
             return 1;
-        };
+        }
     });
     return postList.slice(0, 20);
 }

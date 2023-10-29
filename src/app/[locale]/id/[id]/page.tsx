@@ -11,11 +11,13 @@ export async function generateMetadata({
                                            params,
                                        }: {
     params: {
-        locale: string
+        locale: string;
+        id: string
     };
 }): Promise<Metadata> {
+    const acgn = await getAcgn(params.locale, params.id);
     return {
-        title: `JJ ACG`,
+        title: `${acgn.name} - JJ ACG`,
     };
 }
 
@@ -55,7 +57,7 @@ export default async function Page({
                         <></>
                     )}
                     <div className={"scroll-none"} style={{overflow: "auto", padding: "15px", height: "500px"}}>
-                        {postList.map((post, index) => (
+                        {postList.map((post) => (
                             <div key={`${post.acgnId}-${post.id}`}>
                                 <Link
                                     href={`/${acgn.locale}/id/${acgn.id}/post/${post.id}/`}

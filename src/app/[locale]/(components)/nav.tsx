@@ -1,6 +1,5 @@
 "use server";
 import Icon from "./icon";
-import { signOut, useSession, signIn } from "next-auth/react";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/app/lib/auth";
 import { headers } from "next/headers";

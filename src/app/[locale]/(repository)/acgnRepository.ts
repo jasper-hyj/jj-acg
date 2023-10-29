@@ -1,20 +1,12 @@
 "use server";
 "use strict";
-import {PrismaClient} from "@prisma/client";
 import acgnJSON from "@/resources/db/acgn.json"
-import sqlite3 from "sqlite3";
-import {open, Database} from "sqlite";
-import {JsonArray} from "@prisma/client/runtime/library";
-import {copyFileSync, promises as fs} from 'fs';
-import {readFileSync} from 'fs';
-import path from 'path';
-import {getFirestore, doc, setDoc} from "firebase/firestore";
 import {Acgn} from "../(components)/acgn";
 
 // let db: any = null;
 // const prisma = new PrismaClient();
 export async function getAcgnList(locale: string, type?: string, amount?: number) {
-    var acgnList: Acgn[]
+    let acgnList: Acgn[]
     if (typeof type !== "undefined") {
         // @ts-ignore
         acgnList = acgnJSON.filter((acgn) => acgn.locale === locale && acgn.type.includes(type));

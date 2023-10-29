@@ -1,8 +1,11 @@
+// noinspection SpellCheckingInspection
+
 "use server";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./global.css"
 import Script from "next/script";
 import NextAuthProvider from "./nextAuthProvider";
+import React from "react";
 
 export async function generateStaticParams() {
 	return [{ lang: "en" }, { lang: "zh" }];
