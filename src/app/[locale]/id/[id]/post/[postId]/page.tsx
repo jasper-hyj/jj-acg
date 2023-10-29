@@ -12,6 +12,7 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
 import Background from "@/app/[locale]/(components)/background";
+import { redirect } from "next/navigation";
 
 export async function generateMetadata({
                                            params,
@@ -36,7 +37,9 @@ export default async function Page({
 }) {
     const acgn = await getAcgn(params.locale, params.id);
     const post = await getPost(params.locale, params.id, params.postId);
+    if (typeof acgn === `undefined` || typeof post === `undefined`) redirect(`/${params.locale}/`);
     var contentHTML;
+
     try {
         contentHTML =
             await unified()
@@ -52,7 +55,7 @@ export default async function Page({
     }
     return (
         <div
-            className="text-start container mx-auto"
+            className="text-start container mx-auto px-3"
             style={{
                 maxWidth: "1000px",
                 background: "rgb(255,255,255,0.8)",

@@ -62,9 +62,9 @@ header {
 #post-html > blockquote {
     /*max-width: 800px;*/
     font-style: italic;
-    padding: 10px 20px;
+    padding: 0 20px 15px;
     color: #505050;
-    margin: 5px auto auto;
+    margin: 0 auto;
 }
 
 #post-html img {

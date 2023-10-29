@@ -1,46 +1,57 @@
 [
-  {
-    "acgnId": "valorant",
-    "id": "1",
-    "locale": "en",
-    "title": "New Agent - ISO",
-    "descr": "Whole new Duolist - ISO will be introduced to the game in the next season.",
-    "content": "",
-    "createAt": "2023-10-22 18:36:00",
-    "updateAt": "2023-10-22 18:36:00",
-    "image": "/static/acgn/valorant/1-main.jpg"
-  },
-  {
-    "acgnId": "valorant",
-    "id": "1",
-    "locale": "zh",
-    "title": "全新特務 \"壹決\"",
-    "descr": "全新決鬥者\"壹決\"即將在下一季更新中正式加入特戰英豪特務清單",
-    "content": "",
-    "createAt": "2023-10-22 18:36:00",
-    "updateAt": "2023-10-22 18:36:00",
-    "image": "/static/acgn/valorant/1-main.jpg"
-  },
-  {
-    "acgnId": "the-apothecary-diaries",
-    "id": "1",
-    "locale": "zh",
-    "title": "藥師少女的獨語 - 小說第一卷",
-    "descr": "恭喜動畫正式開播，自2011年10月連載至今的超經典輕小說，故事到底在說些什麼?",
-    "content": "",
-    "createAt": "2023-10-25 23:40:00",
-    "updateAt": "2023-10-25 23:40:00",
-    "image": "/static/acgn/the-apothecary-diaries/main.jpg"
-  },
-  {
-    "acgnId": "the-apothecary-diaries",
-    "id": "2",
-    "locale": "zh",
-    "title": "藥師少女的獨語 - 動畫一二集觀後感",
-    "descr": "動畫版開播至今也過了一周了，動畫在呈現故事上有沒有什麼值得注意的細節?",
-    "content": "",
-    "createAt": "2023-10-26 21:12:00",
-    "updateAt": "2023-10-26 21:12:00",
-    "image": "/static/acgn/the-apothecary-diaries/2-main.jpg"
-  }
+	{
+		"acgnId": "valorant",
+		"id": "1",
+		"locale": "en",
+		"title": "New Agent - ISO",
+		"descr": "Whole new Duolist - ISO will be introduced to the game in the next season.",
+		"content": "",
+		"createAt": "2023-10-22 18:36:00",
+		"updateAt": "2023-10-22 18:36:00",
+		"image": "/static/acgn/valorant/1-main.jpg"
+	},
+	{
+		"acgnId": "valorant",
+		"id": "1",
+		"locale": "zh",
+		"title": "全新特務 \"壹決\"",
+		"descr": "全新決鬥者\"壹決\"即將在下一季更新中正式加入特戰英豪特務清單",
+		"content": "",
+		"createAt": "2023-10-22 18:36:00",
+		"updateAt": "2023-10-22 18:36:00",
+		"image": "/static/acgn/valorant/1-main.jpg"
+	},
+	{
+		"acgnId": "the-apothecary-diaries",
+		"id": "1",
+		"locale": "zh",
+		"title": "藥師少女的獨語 - 小說第一卷",
+		"descr": "恭喜動畫正式開播，自2011年10月連載至今的超經典輕小說，故事到底在說些什麼?",
+		"content": "",
+		"createAt": "2023-10-25 23:40:00",
+		"updateAt": "2023-10-25 23:40:00",
+		"image": "/static/acgn/the-apothecary-diaries/main.jpg"
+	},
+	{
+		"acgnId": "the-apothecary-diaries",
+		"id": "2",
+		"locale": "zh",
+		"title": "藥師少女的獨語 - 動畫一二集觀後感",
+		"descr": "動畫版開播至今也過了一周了，動畫在呈現故事上有沒有什麼值得注意的細節?",
+		"content": "",
+		"createAt": "2023-10-26 21:12:00",
+		"updateAt": "2023-10-26 21:12:00",
+		"image": "/static/acgn/the-apothecary-diaries/2-main.jpg"
+	},
+	{
+		"acgnId": "ao-to-sakura",
+		"id": "1",
+		"locale": "zh",
+		"title": "蒼與咲良 - 小說第一卷觀後感",
+		"descr": "發售於2022年7月15日，一部不同於正常的戀愛喜劇，開朗的少女與不合群的少年，如何在因緣際會下走到了一起?",
+		"content": "",
+		"createAt": "2023-10-27 19:43:00",
+		"updateAt": "2023-10-27 19:43:00",
+		"image": "/static/acgn/ao-to-sakura/carousel.jpg"
+	}
 ]

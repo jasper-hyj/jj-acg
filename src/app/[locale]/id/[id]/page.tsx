@@ -5,6 +5,7 @@ import {getAcgn} from "../../(repository)/acgnRepository";
 import {getDictionary} from "../../dictionaries";
 import {getPostList} from "../../(repository)/postRepository";
 import Link from "next/link";
+import {redirect} from "next/navigation";
 
 export async function generateMetadata({
                                            params,
@@ -27,8 +28,11 @@ export default async function Page({
     };
 }) {
     const acgn = await getAcgn(params.locale, params.id);
+    if (typeof acgn === `undefined`) redirect(`/${params.locale}/`);
     const postList = await getPostList(params.locale, acgn.id);
     const dict = await getDictionary(params.locale);
+    if (typeof acgn === `undefined`) redirect(`/${params.locale}/`);
+
     return (
         <div className="container mt-3">
             <div className="row">

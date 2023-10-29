@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "29f090f6edb30e17",
+        "id": "409c86be8380b857",
         "type": "tabs",
         "children": [
           {
-            "id": "f4580508a5f3171f",
+            "id": "01bf3fc721610759",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "ao-to-sakura-zh-1.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.5
   },
   "right": {
     "id": "2a90a6bec46a3e76",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ao-to-sakura-zh-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ao-to-sakura-zh-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ao-to-sakura-zh-1.md"
+              }
             }
           }
         ]
@@ -138,15 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4580508a5f3171f",
+  "active": "01bf3fc721610759",
   "lastOpenFiles": [
+    "valorant-zh-1.md",
     "the-apothecary-diaries-zh-2.md",
+    "a-returners-magic-should-be-special-zh-1.md",
+    "ao-to-sakura-zh-1.md",
     "the-apothecary-diaries-zh-1.md",
     "static/acgn/the-apothecary-diaries/2-screenshot.jpg.md",
     "static/acgn/the-apothecary-diaries",
     "static/acgn",
-    "static",
-    "valorant-zh-1.md",
-    "a-returners-magic-should-be-special-zh-1.md"
+    "static"
   ]
 }
