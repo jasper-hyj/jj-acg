@@ -21,76 +21,76 @@ export default async function Nav({
 	const path = new URL(headersList.get("x-url") || "").pathname.slice(4);
 
 	let auth;
-	if (session !== null) {
-		auth =
-			session.user?.image !== null && session.user?.name !== null ? (
-				<div className="nav-link py-0 dropdown dropdown-center">
-					<button
-						style={{
-							width: "32px",
-							height: "32px",
-							borderRadius: "50%",
-						}}
-						className="btn p-0 btn-secondary"
-						role="button"
-						data-bs-toggle="dropdown"
-						aria-expanded="false"
-					>
-						<img
-							style={{
-								width: "32px",
-								height: "32px",
-								borderRadius: "50%",
-							}}
-							src={session.user?.image!}
-							alt={session.user?.name}
-						/>
-					</button>
-
-					<ul className="dropdown-menu mt-3">
-						<li>
-							<a
-								className="dropdown-item"
-								href={`/${locale}/user`}
-							>
-								My Profile
-							</a>
-						</li>
-						{/* <li>
-							<a
-								className="dropdown-item"
-								href={`/${locale}/settings`}
-							>
-								Settings
-							</a>
-						</li> */}
-
-						<li>
-							<hr className="dropdown-divider" />
-						</li>
-						<li>
-							<a
-								href="/api/auth/signout"
-								className="nav-link fw-bold py-1 text-dark"
-							>
-								Sign Out
-							</a>
-						</li>
-					</ul>
-				</div>
-			) : (
-				<></>
-			);
-	} else {
-		auth = (
-			<a
-				className="nav-link fw-bold py-1 text-dark"
-				href="/api/auth/signin"
-			>
-				Sign In
-			</a>
-		);
-	}
+	// if (session !== null) {
+	// 	auth =
+	// 		session.user?.image !== null && session.user?.name !== null ? (
+	// 			<div className="nav-link py-0 dropdown dropdown-center">
+	// 				<button
+	// 					style={{
+	// 						width: "32px",
+	// 						height: "32px",
+	// 						borderRadius: "50%",
+	// 					}}
+	// 					className="btn p-0 btn-secondary"
+	// 					role="button"
+	// 					data-bs-toggle="dropdown"
+	// 					aria-expanded="false"
+	// 				>
+	// 					<img
+	// 						style={{
+	// 							width: "32px",
+	// 							height: "32px",
+	// 							borderRadius: "50%",
+	// 						}}
+	// 						src={session.user?.image!}
+	// 						alt={session.user?.name}
+	// 					/>
+	// 				</button>
+	//
+	// 				<ul className="dropdown-menu mt-3">
+	// 					<li>
+	// 						<a
+	// 							className="dropdown-item"
+	// 							href={`/${locale}/user`}
+	// 						>
+	// 							My Profile
+	// 						</a>
+	// 					</li>
+	// 					{/* <li>
+	// 						<a
+	// 							className="dropdown-item"
+	// 							href={`/${locale}/settings`}
+	// 						>
+	// 							Settings
+	// 						</a>
+	// 					</li> */}
+	//
+	// 					<li>
+	// 						<hr className="dropdown-divider" />
+	// 					</li>
+	// 					<li>
+	// 						<a
+	// 							href="/api/auth/signout"
+	// 							className="nav-link fw-bold py-1 text-dark"
+	// 						>
+	// 							Sign Out
+	// 						</a>
+	// 					</li>
+	// 				</ul>
+	// 			</div>
+	// 		) : (
+	// 			<></>
+	// 		);
+	// } else {
+	// 	auth = (
+	// 		<a
+	// 			className="nav-link fw-bold py-1 text-dark"
+	// 			href="/api/auth/signin"
+	// 		>
+	// 			Sign In
+	// 		</a>
+	// 	);
+	// }
 
 	return (
 		<header className="p-3 mb-auto bg-blur sticky-top">
