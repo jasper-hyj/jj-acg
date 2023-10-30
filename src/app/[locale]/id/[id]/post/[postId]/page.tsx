@@ -102,6 +102,7 @@ export default async function Page({
                     {`> ${acgn.name}`}
                 </p>
             </Link>
+            <div id="commento"></div>
         </div>
     );
 }
