@@ -13,6 +13,8 @@ import remarkRehype from 'remark-rehype'
 import {unified} from 'unified'
 import Background from "@/app/[locale]/(components)/background";
 import {redirect} from "next/navigation";
+import Script from "next/script";
+import React from "react";
 
 export async function generateMetadata({
                                            params,
@@ -103,6 +105,7 @@ export default async function Page({
                 </p>
             </Link>
             <div id="commento"></div>
+            <script defer src="https://cdn.commento.io/js/commento.js"></script>
         </div>
     );
 }

@@ -45,7 +45,6 @@ export default async function RootLayout({
 						document.getElementsByTagName("body")[0].appendChild(tag);
 					});`}
 					</Script>
-					<Script defer src="https://cdn.commento.io/js/commento.js"></Script>
 					<Script
 						strategy="lazyOnload"
 						src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
