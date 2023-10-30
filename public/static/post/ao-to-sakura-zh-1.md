@@ -5,6 +5,7 @@
 ![2-linovelib-1.jpg](/static/acgn/ao-to-sakura/2-linovelib-1.jpg)
 <figcaption>咲良: 要不要我告訴你我的名字?<br>蒼: 不必了<br>咲良: 青君也是高中生對不對。幾年級?<br>蒼: 不要叫我蒼。......我是二年級
 <br>[補充: 蒼和青在日文中的發音都是ao]</figcaption>
+
 ---
 ## 蒼君，笑不了?
 而也是在這時候談話之間，女主得知了男主的秘密，那就是「他笑不了」
