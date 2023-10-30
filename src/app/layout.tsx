@@ -60,6 +60,7 @@ export default async function RootLayout({
                     });
                 `}
 					</Script>
+					<Script type="text/javascript" defer src="https://cdn.commento.io/js/commento.js"></Script>
 
 				</NextAuthProvider>
 			</body>

@@ -55,7 +55,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 			>
 				{postList.map((post) => (
 					<div key={`${post.acgnId}-${post.id}`}>
-						<Link
+						<a
 							href={`/${params.locale}/id/${post.acgnId}/post/${post.id}/`}
 							className="link-underline link-underline-opacity-0"
 						>
@@ -85,7 +85,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 									</div>
 								</div>
 							</div>
-						</Link>
+						</a>
 					</div>
 				))}
 			</div>

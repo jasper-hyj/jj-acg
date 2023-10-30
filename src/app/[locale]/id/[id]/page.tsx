@@ -59,7 +59,7 @@ export default async function Page({
                     <div className={"scroll-none"} style={{overflow: "auto", padding: "15px", height: "500px"}}>
                         {postList.map((post) => (
                             <div key={`${post.acgnId}-${post.id}`}>
-                                <Link
+                                <a
                                     href={`/${acgn.locale}/id/${acgn.id}/post/${post.id}/`}
                                     className="link-underline link-underline-opacity-0"
                                 >
@@ -89,7 +89,7 @@ export default async function Page({
                                             </div>
                                         </div>
                                     </div>
-                                </Link>
+                                </a>
                             </div>
                         ))}
                     </div>

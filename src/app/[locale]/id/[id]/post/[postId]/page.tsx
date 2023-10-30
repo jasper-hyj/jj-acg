@@ -71,14 +71,14 @@ export default async function Page({
             }}
         >
             <div>
-                <Link
+                <a
                     href={`/${acgn.locale}/id/${acgn.id}/`}
                     className="link-underline link-underline-opacity-0"
                 >
                     <p className="ps-1 mt-3 mb-3 text-body-secondary">
                         {`> ${acgn.name}`}
                     </p>
-                </Link>
+                </a>
                 <h1 className="mb-1">{`${post.title}`}</h1>
                 <p className="ps-1 mb-1">
                     <small>{post.updateAt}</small>
@@ -96,16 +96,15 @@ export default async function Page({
                 dangerouslySetInnerHTML={{__html: String(contentHTML)}}
             >
             </div>
-            <Link
+            <a
                 href={`/${acgn.locale}/id/${acgn.id}/`}
                 className="link-underline link-underline-opacity-0"
             >
                 <p className="ps-1 mt-3 mb-3 text-body-secondary">
                     {`> ${acgn.name}`}
                 </p>
-            </Link>
+            </a>
             <div id="commento"></div>
-            <script defer src="https://cdn.commento.io/js/commento.js"></script>
         </div>
     );
 }
