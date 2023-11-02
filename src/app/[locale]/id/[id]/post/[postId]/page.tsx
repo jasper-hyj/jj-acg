@@ -15,6 +15,7 @@ import Background from "@/app/[locale]/(components)/background";
 import {redirect} from "next/navigation";
 import Script from "next/script";
 import React from "react";
+import {formatISO} from "@/app/util/time";
 
 export async function generateMetadata({
                                            params,
@@ -81,7 +82,9 @@ export default async function Page({
                 </a>
                 <h1 className="mb-1">{`${post.title}`}</h1>
                 <p className="ps-1 mb-1">
-                    <small>{post.updateAt}</small>
+                    <small>
+                        {formatISO(post.updateAt, params.locale)}
+                    </small>
                 </p>
             </div>
             <Background imageURL={post.image}/>

@@ -1,8 +1,10 @@
 "use client";
 import {Acgn} from "./acgn";
+import {formatISO} from "@/app/util/time";
 
-export default function Card({acgns}: {
-    acgns: Acgn[]
+export default function Card({acgns, locale}: {
+    acgns: Acgn[],
+    locale: string
 }) {
     return (
         <div className="row" data-masonry='{"percentPosition": true }'>
@@ -40,7 +42,7 @@ export default function Card({acgns}: {
                                 </p>
                                 <p className="card-text">
                                     <small className="text-body-secondary">
-                                        {acgn.updateAt}
+                                        {formatISO(acgn.updateAt, locale)}
                                     </small>
                                 </p>
                             </div>

@@ -5,7 +5,7 @@ import { getAcgnList } from "../(repository)/acgnRepository";
 import Card from "../(components)/card";
 import Carousel from "../(components)/carousel";
 import { redirect } from "next/navigation";
-import { getTypeName } from "../dictionaries";
+import { getTypeName } from "../../util/dictionaries";
 
 const availableTypes = ["anime", "comic", "game", "novel"];
 
@@ -32,7 +32,7 @@ export default async function Page({
 		<>
 			<Carousel acgns={acgns} />
 			<div className="container mt-5">
-				<Card acgns={cards} />
+				<Card acgns={cards} locale={params.locale}/>
 			</div>
 		</>
 	);

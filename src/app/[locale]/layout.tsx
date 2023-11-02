@@ -1,6 +1,6 @@
 "use server";
 import "../global.css";
-import {getDictionary} from "./dictionaries";
+import {getDictionary} from "../util/dictionaries";
 import Nav from "./(components)/nav";
 import Footer from "./(components)/footer";
 import React from "react";

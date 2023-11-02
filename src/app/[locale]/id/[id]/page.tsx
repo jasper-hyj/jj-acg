@@ -2,10 +2,11 @@
 
 import {Metadata} from "next";
 import {getAcgn} from "../../(repository)/acgnRepository";
-import {getDictionary} from "../../dictionaries";
+import {getDictionary} from "../../../util/dictionaries";
 import {getPostList} from "../../(repository)/postRepository";
 import Link from "next/link";
 import {redirect} from "next/navigation";
+import {formatISO} from "@/app/util/time";
 
 export async function generateMetadata({
                                            params,
@@ -82,7 +83,7 @@ export default async function Page({
                                                     </p>
                                                     <p className="card-text">
                                                         <small className="text-body-secondary">
-                                                            {post.updateAt}
+                                                            {formatISO(post.updateAt, params.locale)}
                                                         </small>
                                                     </p>
                                                 </div>

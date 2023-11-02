@@ -23,6 +23,8 @@
 │   │   │   ├── layout.tsx
 │   │   │   ├── page.tsx
 │   │   │   ├── template.tsx
+│   ├── resources
+│   │   ├── db
 │   ├── middleware.js
 ├── .env
 ├── .eslintrc.json
@@ -35,11 +37,3 @@
 ├── tailwind.config.ts
 ├── tsconfig.json
 ```
-
-# Configuration Files
-
-##
-
-# Api structure
-
-/[lang]/ default api -> modified by middleware

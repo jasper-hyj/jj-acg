@@ -1,9 +1,10 @@
 "use server";
 import dynamic from "next/dynamic";
-import { getDictionary } from "./dictionaries";
+import { getDictionary } from "../util/dictionaries";
 import type { Metadata } from "next";
 import { getPostList } from "./(repository)/postRepository";
 import Link from "next/link";
+import {formatISO} from "@/app/util/time";
 const Background = dynamic(() => import("./(components)/background"), {
 	ssr: false,
 });
@@ -78,7 +79,7 @@ export default async function Page({ params }: { params: { locale: string } }) {
 											</p>
 											<p className="card-text">
 												<small className="text-body-secondary">
-													{post.updateAt}
+													{formatISO(post.updateAt, params.locale)}
 												</small>
 											</p>
 										</div>
