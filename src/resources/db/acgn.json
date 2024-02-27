@@ -11,7 +11,8 @@
 		"createAt": "2023-10-20T04:26:28.000-07:00",
 		"updateAt": "2023-10-20T04:26:28.000-07:00",
 		"image": "/static/acgn/16bit-sensation/main.jpg",
-		"carousel": "/static/acgn/16bit-sensation/main.jpg"
+		"carousel": "/static/acgn/16bit-sensation/main.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -25,7 +26,8 @@
 		"createAt": "2023-10-20T04:26:28.000-07:00",
 		"updateAt": "2023-10-20T04:26:28.000-07:00",
 		"image": "/static/acgn/16bit-sensation/main.jpg",
-		"carousel": "/static/acgn/16bit-sensation/carousel.jpg"
+		"carousel": "/static/acgn/16bit-sensation/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -39,7 +41,8 @@
 		"createAt": "2023-10-20T04:29:19.000-07:00",
 		"updateAt": "2023-10-20T04:29:19.000-07:00",
 		"image": "/static/acgn/stardust-telepath/main.jpg",
-		"carousel": "/static/acgn/stardust-telepath/carousel.jpg"
+		"carousel": "/static/acgn/stardust-telepath/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -53,7 +56,8 @@
 		"createAt": "2023-10-20T04:29:19.000-07:00",
 		"updateAt": "2023-10-20T04:29:19.000-07:00",
 		"image": "/static/acgn/stardust-telepath/main.jpg",
-		"carousel": "/static/acgn/stardust-telepath/carousel.jpg"
+		"carousel": "/static/acgn/stardust-telepath/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -67,7 +71,8 @@
 		"createAt": "2023-10-20T04:30:50.000-07:00",
 		"updateAt": "2023-10-20T04:30:50.000-07:00",
 		"image": "/static/acgn/frieren/main.jpg",
-		"carousel": "/static/acgn/frieren/carousel.jpg"
+		"carousel": "/static/acgn/frieren/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -81,7 +86,8 @@
 		"createAt": "2023-10-20T04:30:50.000-07:00",
 		"updateAt": "2023-10-20T04:30:50.000-07:00",
 		"image": "/static/acgn/frieren/main.jpg",
-		"carousel": "/static/acgn/frieren/carousel.jpg"
+		"carousel": "/static/acgn/frieren/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -94,7 +100,8 @@
 		"createAt": "2023-10-20T06:30:50.000-07:00",
 		"updateAt": "2023-10-20T06:30:50.000-07:00",
 		"image": "/static/acgn/our-rainy-protocol/main.jpg",
-		"carousel": "/static/acgn/our-rainy-protocol/carousel.jpg"
+		"carousel": "/static/acgn/our-rainy-protocol/carousel.jpg",
+		"website": "https://bokuame.com/"
 	},
 	{
 		"locale": "zh",
@@ -107,7 +114,8 @@
 		"createAt": "2023-10-20T06:30:50.000-07:00",
 		"updateAt": "2023-11-01T12:53:00.000-07:00",
 		"image": "/static/acgn/our-rainy-protocol/main.jpg",
-		"carousel": "/static/acgn/our-rainy-protocol/carousel.jpg"
+		"carousel": "/static/acgn/our-rainy-protocol/carousel.jpg",
+		"website": "https://bokuame.com/"
 	},
 	{
 		"locale": "en",
@@ -121,7 +129,8 @@
 		"createAt": "2023-10-20T12:30:50.000-07:00",
 		"updateAt": "2023-10-20T12:30:50.000-07:00",
 		"image": "/static/acgn/shy/main.jpg",
-		"carousel": "/static/acgn/shy/carousel.jpg"
+		"carousel": "/static/acgn/shy/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -135,7 +144,8 @@
 		"createAt": "2023-10-20T12:30:50.000-07:00",
 		"updateAt": "2023-10-20T12:30:50.000-07:00",
 		"image": "/static/acgn/shy/main.jpg",
-		"carousel": "/static/acgn/shy/carousel.jpg"
+		"carousel": "/static/acgn/shy/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -149,7 +159,8 @@
 		"createAt": "2023-10-20T14:41:00.000-07:00",
 		"updateAt": "2023-10-20T14:41:00.000-07:00",
 		"image": "/static/acgn/a-returners-magic-should-be-special/main.jpg",
-		"carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg"
+		"carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -163,7 +174,8 @@
 		"createAt": "2023-10-20T14:41:00.000-07:00",
 		"updateAt": "2023-10-20T14:41:00.000-07:00",
 		"image": "/static/acgn/a-returners-magic-should-be-special/main.jpg",
-		"carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg"
+		"carousel": "/static/acgn/a-returners-magic-should-be-special/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -178,7 +190,8 @@
 		"createAt": "2023-10-22T17:15:00.000-07:00",
 		"updateAt": "2023-10-22T17:15:00.000-07:00",
 		"image": "/static/acgn/tearmoon-empire/main.jpg",
-		"carousel": "/static/acgn/tearmoon-empire/carousel.jpg"
+		"carousel": "/static/acgn/tearmoon-empire/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -193,7 +206,8 @@
 		"createAt": "2023-10-22T17:15:00.000-07:00",
 		"updateAt": "2023-10-22T17:15:00.000-07:00",
 		"image": "/static/acgn/tearmoon-empire/main.jpg",
-		"carousel": "/static/acgn/tearmoon-empire/carousel.jpg"
+		"carousel": "/static/acgn/tearmoon-empire/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -206,7 +220,8 @@
 		"createAt": "2023-10-22T17:57:00.000-07:00",
 		"updateAt": "2023-10-22T17:57:00.000-07:00",
 		"image": "/static/acgn/valorant/main.jpg",
-		"carousel": "/static/acgn/valorant/carousel.jpg"
+		"carousel": "/static/acgn/valorant/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -219,7 +234,8 @@
 		"createAt": "2023-10-22T17:57:00.000-07:00",
 		"updateAt": "2023-10-22T17:57:00.000-07:00",
 		"image": "/static/acgn/valorant/main.jpg",
-		"carousel": "/static/acgn/valorant/carousel.jpg"
+		"carousel": "/static/acgn/valorant/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -233,7 +249,8 @@
 		"createAt": "2023-10-22T20:30:00.000-07:00",
 		"updateAt": "2023-10-22T20:30:00.000-07:00",
 		"image": "/static/acgn/100-nin-no-kanojo/main.jpg",
-		"carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg"
+		"carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -247,7 +264,8 @@
 		"createAt": "2023-10-22T20:30:00.000-07:00",
 		"updateAt": "2023-10-22T20:30:00.000-07:00",
 		"image": "/static/acgn/100-nin-no-kanojo/main.jpg",
-		"carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg"
+		"carousel": "/static/acgn/100-nin-no-kanojo/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -260,7 +278,8 @@
 		"createAt": "2023-10-22T21:11:00.000-07:00",
 		"updateAt": "2023-10-22T21:11:00.000-07:00",
 		"image": "/static/acgn/apex-legends/main.jpg",
-		"carousel": "/static/acgn/apex-legends/carousel.jpg"
+		"carousel": "/static/acgn/apex-legends/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -273,7 +292,8 @@
 		"createAt": "2023-10-22T21:11:00.000-07:00",
 		"updateAt": "2023-10-22T21:11:00.000-07:00",
 		"image": "/static/acgn/apex-legends/main.jpg",
-		"carousel": "/static/acgn/apex-legends/carousel.jpg"
+		"carousel": "/static/acgn/apex-legends/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -286,7 +306,8 @@
 		"createAt": "2023-10-22T21:18:00.000-07:00",
 		"updateAt": "2023-10-22T21:18:00.000-07:00",
 		"image": "/static/acgn/overwatch/main.jpg",
-		"carousel": "/static/acgn/overwatch/carousel.jpg"
+		"carousel": "/static/acgn/overwatch/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -299,7 +320,8 @@
 		"createAt": "2023-10-22T21:18:00.000-07:00",
 		"updateAt": "2023-10-22T21:18:00.000-07:00",
 		"image": "/static/acgn/overwatch/main.jpg",
-		"carousel": "/static/acgn/overwatch/carousel.jpg"
+		"carousel": "/static/acgn/overwatch/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -312,7 +334,8 @@
 		"createAt": "2023-10-22T21:26:00.000-07:00",
 		"updateAt": "2023-10-22T21:26:00.000-07:00",
 		"image": "/static/acgn/genshin-impact/main.jpg",
-		"carousel": "/static/acgn/genshin-impact/carousel.jpg"
+		"carousel": "/static/acgn/genshin-impact/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -325,7 +348,8 @@
 		"createAt": "2023-10-22T21:26:00.000-07:00",
 		"updateAt": "2023-10-22T21:26:00.000-07:00",
 		"image": "/static/acgn/genshin-impact/main.jpg",
-		"carousel": "/static/acgn/genshin-impact/carousel.jpg"
+		"carousel": "/static/acgn/genshin-impact/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -339,7 +363,8 @@
 		"createAt": "2023-10-24T21:11:00.000-07:00",
 		"updateAt": "2023-10-24T21:11:00.000-07:00",
 		"image": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/main.jpg",
-		"carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg"
+		"carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -353,7 +378,8 @@
 		"createAt": "2023-10-24T21:11:00.000-07:00",
 		"updateAt": "2023-10-24T21:11:00.000-07:00",
 		"image": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/main.jpg",
-		"carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg"
+		"carousel": "/static/acgn/the-vexations-of-a-shut-in-vampire-princess/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -367,7 +393,8 @@
 		"createAt": "2023-10-24T21:54:00.000-07:00",
 		"updateAt": "2023-10-24T21:54:00.000-07:00",
 		"image": "/static/acgn/heat-the-pig-liver/main.jpg",
-		"carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg"
+		"carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -381,7 +408,8 @@
 		"createAt": "2023-10-24T21:54:00.000-07:00",
 		"updateAt": "2023-10-24T21:54:00.000-07:00",
 		"image": "/static/acgn/heat-the-pig-liver/main.jpg",
-		"carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg"
+		"carousel": "/static/acgn/heat-the-pig-liver/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -396,7 +424,8 @@
 		"createAt": "2023-10-25T23:40:00.000-07:00",
 		"updateAt": "2023-10-26T21:12:00.000-07:00",
 		"image": "/static/acgn/the-apothecary-diaries/main.jpg",
-		"carousel": "/static/acgn/the-apothecary-diaries/carousel.jpg"
+		"carousel": "/static/acgn/the-apothecary-diaries/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -411,7 +440,8 @@
 		"createAt": "2023-10-25T23:40:00.000-07:00",
 		"updateAt": "2023-10-25T23:40:00.000-07:00",
 		"image": "/static/acgn/the-apothecary-diaries/main.jpg",
-		"carousel": "/static/acgn/the-apothecary-diaries/carousel.jpg"
+		"carousel": "/static/acgn/the-apothecary-diaries/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "zh",
@@ -426,7 +456,8 @@
 		"createAt": "2023-10-25T23:46:00.000-07:00",
 		"updateAt": "2023-10-25T23:46:00.000-07:00",
 		"image": "/static/acgn/i'm-in-love-with-the-villainess/main.jpg",
-		"carousel": "/static/acgn/i'm-in-love-with-the-villainess/carousel.jpg"
+		"carousel": "/static/acgn/i'm-in-love-with-the-villainess/carousel.jpg",
+		"website": ""
 	},
 	{
 		"locale": "en",
@@ -441,7 +472,8 @@
 		"createAt": "2023-10-25T23:46:00.000-07:00",
 		"updateAt": "2023-10-25T23:46:00.000-07:00",
 		"image": "/static/acgn/i'm-in-love-with-the-villainess/main.jpg",
-		"carousel": "/static/acgn/i'm-in-love-with-the-villainess/carousel.jpg"
+		"carousel": "/static/acgn/i'm-in-love-with-the-villainess/carousel.jpg",
+		"website": ""
 	},
 	{
 
@@ -455,7 +487,8 @@
 		"createAt": "2023-10-27T14:06:00.000-07:00",
 		"updateAt": "2023-10-27T14:06:00.000-07:00",
 		"image": "/static/acgn/ao-to-sakura/main.jpg",
-		"carousel": "/static/acgn/ao-to-sakura/carousel.jpg"
+		"carousel": "/static/acgn/ao-to-sakura/carousel.jpg",
+		"website": ""
 	},
 	{
 
@@ -469,6 +502,7 @@
 		"createAt": "2023-10-27T14:06:00.000-07:00",
 		"updateAt": "2023-10-27T14:06:00.000-07:00",
 		"image": "/static/acgn/ao-to-sakura/main.jpg",
-		"carousel": "/static/acgn/ao-to-sakura/carousel.jpg"
+		"carousel": "/static/acgn/ao-to-sakura/carousel.jpg",
+		"website": ""
 	}
 ]

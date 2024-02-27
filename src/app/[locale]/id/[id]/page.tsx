@@ -41,6 +41,7 @@ export default async function Page({
             <div className="row">
                 <div className="col-md-6 col-sm-12 mt-3">
                     <h2>{acgn.name}</h2>
+                    <a className={"link-info link-offset-2 link-underline link-underline-opacity-0"} target="_blank" rel="noopener" href={acgn.website}>{dict.post.link}</a>
                     <img
                         src={`/static/acgn/${acgn.id}/main.jpg`}
                         className="img-fluid rounded mb-3"

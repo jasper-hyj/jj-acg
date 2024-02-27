@@ -1,8 +1,8 @@
 import 'server-only'
 
 const dictionaries: any = {
-    "en": () => import('../[locale]/dictionaries/en-US.json').then((module) => module.default),
-    "zh": () => import('../[locale]/dictionaries/zh-TW.json').then((module) => module.default),
+    "en": () => import('@/resources/dictionaries/en-US.json').then((module) => module.default),
+    "zh": () => import('@/resources/dictionaries/zh-TW.json').then((module) => module.default),
 }
 
 export async function getTypeName(locale: string, type: string) {

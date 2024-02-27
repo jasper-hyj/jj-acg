@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "01bf3fc721610759",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "valorant-zh-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "217acae2cff65db5",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"

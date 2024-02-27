@@ -8,4 +8,5 @@ export interface Acgn {
 	updateAt: string;
 	image: string;
 	carousel: string;
+	website: string;
 }
